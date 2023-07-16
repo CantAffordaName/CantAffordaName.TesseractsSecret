@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 3257270071
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62eba25db7fe54561a04f5c3e6c7551a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5f75bc04f003765649b72dbab67deda7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e3953f09b39762e479832ef15fcc3ed5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c82db0fa1189d6b4b8fcaa80eff2fca0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67327a4eaa436274f8b91aea3646a95d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/TesseractsSecret/Materials/DoubleCube_Interior.mat
+- Assets/TesseractsSecret/Materials/DoubleCube_Magenta.mat
+- Assets/TesseractsSecret/Models/InteriorShell.fbx
+- Assets/TesseractsSecret/Models/MiniPlanet.fbx
+- Assets/TesseractsSecret/Models/FloorButton.fbx
+- Assets/TesseractsSecret/Prefabs/PlanetGravityInner.prefab
+- Assets/TesseractsSecret/Shaders/Tesseract_Triplanar.shader
+- Assets/TesseractsSecret/Materials/Tesseract.mat
+- Assets/TesseractsSecret/Prefabs/DoubleCube.prefab
+- Assets/TesseractsSecret/Prefabs/OuterPlanet_Desert.prefab
+- Assets/TesseractsSecret/Materials/TeleportNode_Mat.mat
+- Assets/TesseractsSecret/Models/TesseractOuterPlanetv2.fbx
+- Assets/TesseractsSecret/Prefabs/PlanetGravityOuter.prefab
+- Assets/TesseractsSecret/Materials/TestRenderTexture.mat
+- Assets/TesseractsSecret/Models/TesseractCombinedShapes.fbx
+- Assets/TesseractsSecret/Models/CurvedHall.fbx
+- Assets/TesseractsSecret/Prefabs/CubedPlanetTest.prefab
+- Assets/TesseractsSecret/Models/CircleRock.fbx
+- Assets/TesseractsSecret/Textures/Terrain_TH_DiffuseRedux.png
+- Assets/TesseractsSecret/Prefabs/InteriorGroup.prefab
+- Assets/TesseractsSecret/Models/PlanetGravityOuter2.fbx
+- Assets/TesseractsSecret/Textures/Terrain_TH_NormalRedux.png
+- Assets/TesseractsSecret/Models/TesseractDesertPlanetv2.fbx
+- Assets/TesseractsSecret/Materials/DarkMetal_Triplanar_Mat.mat
+- Assets/TesseractsSecret/Shaders/DoubleCube.shader
+- Assets/TesseractsSecret/Textures/Terrain_TH_CraterCliffsDetail_n.png
+- Assets/TesseractsSecret/Materials/TriplanarGrass_Mat.mat
+- Assets/TesseractsSecret/Models/PlanetGravityInner2.fbx
+- Assets/TesseractsSecret/Prefabs/TesseractCombinedShapes.prefab
+- Assets/TesseractsSecret/Prefabs/OuterPlanet_Grass.prefab
+- Assets/TesseractsSecret/Materials/DoubleCube_Yellow.mat
+- Assets/TesseractsSecret/Materials/TeleportNode2_Mat.mat
+- Assets/TesseractsSecret/Models/Monolith.fbx
+- Assets/TesseractsSecret/Models/TeleportNodev2.fbx
+- Assets/TesseractsSecret/Materials/Metal_Triplanar_Mat.mat
+- Assets/TesseractsSecret/Models/EntranceFunnel.fbx
+- Assets/TesseractsSecret/Materials/Tesseract2.mat
+- Assets/TesseractsSecret/Models/TesseractBoxPlanet.fbx
+- Assets/TesseractsSecret/Materials/DoubleCube_Cyan.mat
+- Assets/TesseractsSecret/Models/SplitPlatform.fbx
+- Assets/TesseractsSecret/Materials/TriplanarRocksRed_Mat.mat
+- Assets/TesseractsSecret/Prefabs/CurvedHallFloorModule.prefab
+- Assets/TesseractsSecret/Prefabs/TestSmoothedPlanet.prefab
+- Assets/TesseractsSecret/Materials/TriplanarRocks_Mat.mat
+- Assets/TesseractsSecret/Materials/DoubleCube_Arrow.mat
+Dependencies: []

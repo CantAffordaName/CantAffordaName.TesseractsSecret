@@ -1,0 +1,41 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID>
+    
+	<Entry>
+        <ID>HORNFELS_OBSERVATION</ID>
+        <Name>Hornfels' Observation</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>REMINDER_RUMOR</ID> 
+            <RumorName>Personal Reminder</RumorName> 
+            <Text>I recall that Hornfels had something to tell me about my Signal Scope before I launch into space. Better late than never.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>HORNFELS_SIGNAL_SCOPE</ID>
+            <Text>Hornfels says that there might be an issue with signal scopes detecting certain frequencies. Not from any Hearthian frequencies or Quantum frequencies, specificially frequencies used by the Nomai.</Text> 
+        </ExploreFact>
+    </Entry>
+
+	<Entry>
+        <ID>SIGNAL_SCOPE_ODDITY</ID>
+        <Name>Signal Scope Oddity</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>SIGNAL_SCOPE_RUMOR</ID>
+			<SourceID>HORNFELS_OBSERVATION</SourceID>
+            <RumorName>Signal Scoped</RumorName>
+            <Text>Hornfels asked me to scope out the Quantum Grove with my signal scope.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>SIGNAL_SCOPE_ESCAPEPOD</ID>
+            <Text>While in the Quantum Grove, the frequency for Distress Beacons seems to break and points away from Escape Pods that I've found.</Text> 
+        </ExploreFact>
+    </Entry>
+
+</AstroObjectEntry>

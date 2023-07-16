@@ -1,0 +1,122 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  
+  "name": "InteriorDimension",
+  "canShowOnTitle": false,
+
+  "Orbit": { 
+    "staticPosition": {"x": 30000, "y": -34321,"z": -30000}
+  },
+  "Bramble": {
+    "dimension": {
+      "radius": 750,
+      "fogTint": {"r": 0, "g": 0, "b": 0, "a": 255},
+      "fogDensity": 0,
+      "linksTo": "EntranceNode"
+    }
+  },
+  "Volumes": {
+	  "audioVolumes": [
+			{
+				"audio": "planets/assetbundle/LightlessDawn.ogg",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.6,
+				"priority": 0,
+				"position": {},
+				"radius": 2000.0
+			}
+		]
+  },
+  "Lava": {
+		"size": 50,
+		"tint": {"r": 0, "g": 100, "b": 200, "a": 255}
+  },
+  "props": {
+		"details" :
+		[
+			{
+				"assetBundle": "planets/assetbundle/tesseractbundle",
+				"path" : "Assets/TesseractsSecret/Prefabs/InteriorGroup.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Cylinder", 
+				"position": {"x": -151.8283, "y": 361.0372, "z": -1269.135},
+				"rotation": {"x": 288.6629, "y": 8.018, "z": 0},
+				"stretch": {"x": 22, "y": 5, "z": 22},
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/tesseractbundle",
+				"path": "Assets/TesseractsSecret/Prefabs/TesseractCombinedShapes.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 80.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {"x": -415.1445, "y": 92.22, "z": 1103.252},
+				"rotation": {"x": -5.827649E-06, "y": 346.3076, "z": 180},
+				"normal": {"x": -2.262673E-08, "y": -1, "z": 8.44439E-08},
+				"scale" : 0.02,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position": {"x": -415.1445, "y": 92.22, "z": 1103.252},
+				"rotation": {"x": -5.827649E-06, "y": 346.3076, "z": 180},
+				"normal": {"x": -2.262673E-08, "y": -1, "z": 8.44439E-08},
+				"scale" : 0.02
+			},
+		],
+		"translatorText":[
+			{
+				"position": {"x": -139.0224, "y": 316.6295, "z": -1049.418},
+				"rotation": {"x": 347.4791, "y": 182.7613, "z": 158.7195},
+				"normal": {"x": 0.3527806, "y": -0.9096534, "z": -0.2192642},
+				"xmlFile": "planets/Text/FirstInteriorRecorder.xml",
+				"type": "preCrashRecorder"
+			},
+			{
+				"position": {"x": 1145.115, "y": -206.9241, "z": 392.4233},
+				"rotation": {"x": 42.28562, "y": 17.53437, "z": 109.0811},
+				"normal": {"x": -0.9674126, "y": -0.2418448, "z": 0.0749936},
+				"xmlFile": "planets/Text/MinimapRecorder.xml",
+				"type": "preCrashRecorder"
+			},
+			{
+				"position": {"x": -7.549417, "y": -1142.356, "z": 40.98961},
+				"rotation": {"x": 79.8016, "y": 333.561, "z": 348.737},
+				"normal": {"x": -0.254887, "y": 0.1736482, "z": 0.9512513},
+				"xmlFile": "planets/Text/InstructionRecorder.xml",
+				"type": "preCrashRecorder"
+			},
+			{
+				"position": {"x": -413.0348, "y": 93.32, "z": 1094.44},
+				"rotation": {"x": 0, "y": 165.5935, "z": 180},
+				"normal": {"x": 0, "y": -1, "z": 0},
+				"xmlFile": "planets/Text/ApproachingTesseractRecorder.xml",
+				"type": "preCrashRecorder"
+			}
+		],
+		"dialogue": [
+			{
+				"lookAtRadius": 3.0,
+				"position": {"x": -415.1445, "y": 92.22, "z": 1103.252},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/JohnnyTesseract.xml"
+			}
+		]
+	},
+  "removeChildren": [
+	"Sector/Geometry",
+	"Sector/Effects",
+	"Sector/Volumes/ZeroG_Fluid_Audio_Volume"	
+  ]
+}

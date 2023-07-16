@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Lotus: Huh... despite the other seals disappearing, this one is still in tact.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: The others were unsealed after you messed with the tesseract. Unsealing this one probably won't be as easy as flipping back, but there must be some clues somewhere.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Kestrel: Let's retrace our steps, look at the other structures again. I'm sure we'll figure it out.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>YELLOWNODE_RECORDER</FactID>
+	      	<Condition>3</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

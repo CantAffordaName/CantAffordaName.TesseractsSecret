@@ -1,0 +1,29 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Lotus: Now this is really something! For real, this time!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Lotus: I'm still not sure where any actual life forms are, but whoever or whatever they are have managed to build some sort of <![CDATA[<color=orange>tesseract</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: I can change it back and forth between two states. But is that really all there is to it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Lotus: ...And I'd better watch my step. It seems as though the gravity around the <![CDATA[<color=orange>tesseract</color>]]> is <![CDATA[<i>unbelievably</i>]]> strong and could tear me apart. Or crush me. Or do other unpleasant things.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>FIRSTINTERIOR_RECORDER</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

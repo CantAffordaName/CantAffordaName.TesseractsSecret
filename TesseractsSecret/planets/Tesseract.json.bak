@@ -1,0 +1,5688 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Tesseract",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 66,
+			"g": 185,
+			"b": 245,
+			"a": 0
+		},
+		"atmosphereSunIntensity": 1.0,
+		"fogDensity": 0.1,
+		"fogSize": 200.0,
+		"fogTint": {
+			"r": 255,
+			"g": 0,
+			"b": 0,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"size": 180.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.4,
+		"gravityFallOff": "linear",
+		"invulnerableToSun": true,
+		"surfaceGravity": 15.0,
+		"surfaceSize": 220.0,
+	},
+	"Bramble": {
+		"nodes": [
+		  {
+			"position": {"x": 0.0, "y": 60.0, "z": 0.0},
+			"rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+			"linksTo": "InteriorDimension",
+			"name": "EntranceNode",
+			"fogTint":   {"r": 0, "g": 0, "b": 0, "a": 255},
+			"lightTint": {"r": 0, "g": 0, "b": 0, "a": 255},
+			"scale": 0.075
+		  }
+		]
+	},
+	"removeChildren": [
+		"Sector/EntranceNode/Terrain_DB_BrambleSphere_Inner_v2"
+	],
+	"Orbit": {
+		"primaryBody": "Sun",
+		"semiMajorAxis" : 9000,
+		"inclination" : 45,
+		"trueAnomaly": 90,
+		"showOrbitLine": false
+	},
+	"Props": {
+		"details": [
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/tesseractbundle",
+				"path": "Assets/TesseractsSecret/Prefabs/OuterPlanet_Grass.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/tesseractbundle",
+				"path": "Assets/TesseractsSecret/Prefabs/OuterPlanet_Desert.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"removeChildren": ["Interactibles_EscapePod"],
+				"rotation": {
+					"x": -45,
+					"y": -45,
+					"z": 0
+				},
+				"position": {
+					"x": 80,
+					"y": 80,
+					"z": -80
+				},
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/tesseractbundle",
+				"path": "Assets/TesseractsSecret/Prefabs/TestSmoothedPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 349.3703,
+"y": 204.647446,
+"z": 36.1297531
+},
+"position": {
+"x": 81.8210754,
+"y": 98.27047,
+"z": -29.641655
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.15308,
+"y": 135.039917,
+"z": 27.85274
+},
+"position": {
+"x": 89.9802246,
+"y": 91.74926,
+"z": -21.310791
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 307.819855,
+"y": 316.902771,
+"z": 331.709
+},
+"position": {
+"x": 102.531738,
+"y": 72.46444,
+"z": -40.4023743
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 8.155244,
+"y": 182.840134,
+"z": 54.94688
+},
+"position": {
+"x": 102.139648,
+"y": 76.2483444,
+"z": -27.5069656
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 350.912018,
+"y": 13.2791395,
+"z": 295.7312
+},
+"position": {
+"x": 107.350525,
+"y": 57.404007,
+"z": -53.80538
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 16.8736629,
+"y": 180.928589,
+"z": 79.12912
+},
+"position": {
+"x": 125.66391,
+"y": 19.372261,
+"z": -16.4876022
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 342.584839,
+"y": 179.996521,
+"z": 90.01186
+},
+"position": {
+"x": 127.921509,
+"y": -0.6087189,
+"z": -5.45366669
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.240051,
+"y": 8.316254,
+"z": 264.792236
+},
+"position": {
+"x": 125.356339,
+"y": -7.379902,
+"z": -28.4984665
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 291.227539,
+"y": 26.2066269,
+"z": 256.574677
+},
+"position": {
+"x": 121.5385,
+"y": -11.4193993,
+"z": -46.4951477
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 293.86,
+"y": 39.7691422,
+"z": 246.01355
+},
+"position": {
+"x": 117.738556,
+"y": -21.5980682,
+"z": -55.5802155
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 293.351,
+"y": 74.90119,
+"z": 215.803787
+},
+"position": {
+"x": 112.3952,
+"y": -35.391758,
+"z": -61.9105377
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 300.4403,
+"y": 101.479233,
+"z": 191.056061
+},
+"position": {
+"x": 102.994278,
+"y": -53.4176636,
+"z": -64.2707748
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 310.539917,
+"y": 145.523987,
+"z": 159.82489
+},
+"position": {
+"x": 93.13959,
+"y": -70.23345,
+"z": -58.8670273
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 312.845978,
+"y": 115.758553,
+"z": 184.172333
+},
+"position": {
+"x": 84.20051,
+"y": -82.17351,
+"z": -53.6564636
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 337.475037,
+"y": 65.94171,
+"z": 215.304153
+},
+"position": {
+"x": 71.37678,
+"y": -90.850235,
+"z": -56.5919876
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 343.0729,
+"y": 68.9339142,
+"z": 214.077988
+},
+"position": {
+"x": 54.890274,
+"y": -99.7027054,
+"z": -58.83773
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 337.586517,
+"y": 187.63739,
+"z": 157.690857
+},
+"position": {
+"x": 42.2862854,
+"y": -109.490211,
+"z": -51.1963348
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 354.225677,
+"y": 205.215942,
+"z": 155.289932
+},
+"position": {
+"x": 45.35247,
+"y": -113.828934,
+"z": -37.3980331
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 359.659,
+"y": 201.664215,
+"z": 153.022827
+},
+"position": {
+"x": 53.6875534,
+"y": -113.389435,
+"z": -25.79261
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 10.2440863,
+"y": 208.252243,
+"z": 151.8175
+},
+"position": {
+"x": 61.090683,
+"y": -111.879211,
+"z": -12.1239548
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 17.5322247,
+"y": 208.424,
+"z": 150.912979
+},
+"position": {
+"x": 68.6413,
+"y": -108.118164,
+"z": 2.82437134
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.8947144,
+"y": 272.444275,
+"z": 185.781021
+},
+"position": {
+"x": 78.1443939,
+"y": -100.773827,
+"z": 12.14624
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 40.69257,
+"y": 290.3512,
+"z": 197.621262
+},
+"position": {
+"x": 87.56958,
+"y": -93.2541046,
+"z": 7.025528
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 45.35104,
+"y": 300.26062,
+"z": 202.553375
+},
+"position": {
+"x": 95.77707,
+"y": -85.0756454,
+"z": -4.213394
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 39.2239265,
+"y": 223.6063,
+"z": 141.283783
+},
+"position": {
+"x": 102.473953,
+"y": -76.80034,
+"z": -4.99022675
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 32.322834,
+"y": 201.106079,
+"z": 125.824028
+},
+"position": {
+"x": 109.000214,
+"y": -67.29986,
+"z": 3.59358215
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 47.53249,
+"y": 205.7005,
+"z": 129.207764
+},
+"position": {
+"x": 114.172211,
+"y": -56.31285,
+"z": 13.8135223
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 292.365082,
+"y": 53.622757,
+"z": 203.794922
+},
+"position": {
+"x": 118.248322,
+"y": -42.0041237,
+"z": 25.50595
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 310.834137,
+"y": 15.6253281,
+"z": 231.189957
+},
+"position": {
+"x": 109.062225,
+"y": -56.9024048,
+"z": 36.0849762
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 322.240021,
+"y": 125.699295,
+"z": 137.3846
+},
+"position": {
+"x": 95.74765,
+"y": -75.7381744,
+"z": 38.9308472
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 337.032135,
+"y": 129.688889,
+"z": 134.140732
+},
+"position": {
+"x": 84.43287,
+"y": -83.7967,
+"z": 47.6710358
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 5.717141,
+"y": 148.634659,
+"z": 131.12941
+},
+"position": {
+"x": 80.091095,
+"y": -81.18798,
+"z": 58.53212
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 313.155,
+"y": 41.63521,
+"z": 187.960587
+},
+"position": {
+"x": 73.08699,
+"y": -89.0954742,
+"z": 56.11949
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 324.181519,
+"y": 28.1268654,
+"z": 196.588623
+},
+"position": {
+"x": 68.7621841,
+"y": -97.80763,
+"z": 46.0092621
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 3.962061,
+"y": 140.8132,
+"z": 141.304932
+},
+"position": {
+"x": 59.65815,
+"y": -99.88841,
+"z": 53.6821
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 37.7991676,
+"y": 286.007263,
+"z": 166.316071
+},
+"position": {
+"x": 70.22907,
+"y": -117.204353,
+"z": -55.2340851
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 356.2381,
+"y": 206.6682,
+"z": 150.754715
+},
+"position": {
+"x": 71.28513,
+"y": -121.240273,
+"z": -44.7210541
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 32.61765,
+"y": 271.345825,
+"z": 160.989822
+},
+"position": {
+"x": 81.6021652,
+"y": -113.632645,
+"z": -47.4882126
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 353.345764,
+"y": 191.822083,
+"z": 145.572937
+},
+"position": {
+"x": 82.39037,
+"y": -117.62989,
+"z": -33.78865
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 40.08185,
+"y": 313.1115,
+"z": 192.219681
+},
+"position": {
+"x": 93.4271545,
+"y": -108.146339,
+"z": -36.8072281
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 49.1582031,
+"y": 315.707062,
+"z": 196.185577
+},
+"position": {
+"x": 104.846085,
+"y": -95.28851,
+"z": -41.2931442
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 53.55166,
+"y": 326.029358,
+"z": 201.209671
+},
+"position": {
+"x": 111.955811,
+"y": -83.54215,
+"z": -47.95977
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 54.40668,
+"y": 325.0943,
+"z": 203.274261
+},
+"position": {
+"x": 117.23056,
+"y": -72.88309,
+"z": -52.4502258
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 55.01102,
+"y": 247.96199,
+"z": 142.1837
+},
+"position": {
+"x": 122.875687,
+"y": -64.81542,
+"z": -49.90541
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 49.3497772,
+"y": 227.59639,
+"z": 125.548943
+},
+"position": {
+"x": 128.665329,
+"y": -55.23472,
+"z": -46.73777
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.799327,
+"y": 21.3712215,
+"z": 255.047974
+},
+"position": {
+"x": 132.768036,
+"y": -40.0355377,
+"z": -49.81434
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 43.46421,
+"y": 203.65036,
+"z": 102.029594
+},
+"position": {
+"x": 139.765518,
+"y": -30.42593,
+"z": -36.5429077
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 13.0133877,
+"y": 189.935242,
+"z": 102.661751
+},
+"position": {
+"x": 143.03273,
+"y": -28.3725433,
+"z": -23.02922
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 39.83103,
+"y": 191.92865,
+"z": 101.617592
+},
+"position": {
+"x": 145.247162,
+"y": -22.696106,
+"z": -10.0433273
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 340.1931,
+"y": 176.105927,
+"z": 102.281982
+},
+"position": {
+"x": 145.76416,
+"y": -24.2469482,
+"z": 0.312545776
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 289.603851,
+"y": 127.804245,
+"z": 139.449356
+},
+"position": {
+"x": 143.587143,
+"y": -33.9350166,
+"z": 6.960327
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 285.852264,
+"y": 107.358681,
+"z": 158.953339
+},
+"position": {
+"x": 140.66954,
+"y": -44.5023155,
+"z": 8.545395
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.868469,
+"y": 34.47422,
+"z": 228.90329
+},
+"position": {
+"x": 136.451172,
+"y": -56.5164528,
+"z": 4.172165
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 321.225,
+"y": 24.8506813,
+"z": 237.256958
+},
+"position": {
+"x": 131.788986,
+"y": -66.5112,
+"z": -6.49704742
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.4334,
+"y": 152.627335,
+"z": 148.66864
+},
+"position": {
+"x": 95.3682861,
+"y": -112.229462,
+"z": -9.232765
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 23.309412,
+"y": 346.581116,
+"z": 218.278229
+},
+"position": {
+"x": 100.659,
+"y": -107.0504,
+"z": -15.3334579
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 16.1456871,
+"y": 353.309723,
+"z": 225.6498
+},
+"position": {
+"x": 105.787048,
+"y": -100.166969,
+"z": -24.04123
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.2268677,
+"y": 213.358963,
+"z": 126.938545
+},
+"position": {
+"x": 119.536011,
+"y": -82.53803,
+"z": -26.7009964
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 39.7990837,
+"y": 35.92013,
+"z": 296.2196
+},
+"position": {
+"x": 128.282623,
+"y": 57.0923233,
+"z": -46.3516541
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.290741,
+"y": 352.25296,
+"z": 302.413574
+},
+"position": {
+"x": 130.87439,
+"y": 51.2935181,
+"z": -45.1924667
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.401917,
+"y": 221.172058,
+"z": 56.5854034
+},
+"position": {
+"x": 136.284821,
+"y": 43.823967,
+"z": -36.5994263
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 314.716736,
+"y": 211.768723,
+"z": 62.58214
+},
+"position": {
+"x": 138.794846,
+"y": 44.3708267,
+"z": -23.5431747
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 299.306244,
+"y": 221.356613,
+"z": 48.1350746
+},
+"position": {
+"x": 140.796051,
+"y": 43.8671646,
+"z": -7.406456
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 291.593933,
+"y": 309.9874,
+"z": 315.967438
+},
+"position": {
+"x": 141.575317,
+"y": 41.0346451,
+"z": 2.44703674
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.785828,
+"y": 342.624817,
+"z": 283.465576
+},
+"position": {
+"x": 138.5683,
+"y": 47.87751,
+"z": 11.0529022
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 53.142086,
+"y": 141.733521,
+"z": 50.2775764
+},
+"position": {
+"x": 135.058334,
+"y": 57.7153244,
+"z": 13.9040833
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 14.8581285,
+"y": 165.627991,
+"z": 63.1640244
+},
+"position": {
+"x": 128.471329,
+"y": 70.18679,
+"z": 19.9612122
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.906755,
+"y": 161.252655,
+"z": 54.359066
+},
+"position": {
+"x": 119.467316,
+"y": 80.83465,
+"z": 32.5549927
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 332.4226,
+"y": 176.679855,
+"z": 51.5684547
+},
+"position": {
+"x": 111.382874,
+"y": 84.1959152,
+"z": 48.0848236
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 331.20166,
+"y": 177.5478,
+"z": 46.6300545
+},
+"position": {
+"x": 101.558609,
+"y": 89.92449,
+"z": 58.6999969
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 343.0126,
+"y": 310.624725,
+"z": 316.9334
+},
+"position": {
+"x": 94.05432,
+"y": 98.79696,
+"z": 56.3837738
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.0372372,
+"y": 353.763733,
+"z": 327.46347
+},
+"position": {
+"x": 89.27258,
+"y": 106.100945,
+"z": 49.65439
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 350.221283,
+"y": 325.313721,
+"z": 321.2745
+},
+"position": {
+"x": 82.40138,
+"y": 116.250526,
+"z": 38.93071
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 316.905945,
+"y": 218.911285,
+"z": 22.8977528
+},
+"position": {
+"x": 103.908051,
+"y": 98.32113,
+"z": 36.4232635
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.6866417,
+"y": 129.029831,
+"z": 30.7454929
+},
+"position": {
+"x": 94.61136,
+"y": 110.371239,
+"z": 25.9579773
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 313.690735,
+"y": 240.276,
+"z": 16.4729118
+},
+"position": {
+"x": 108.891968,
+"y": 98.82296,
+"z": 12.6720581
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 308.1931,
+"y": 264.312744,
+"z": 3.05948019
+},
+"position": {
+"x": 115.21077,
+"y": 92.23278,
+"z": 2.02554321
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 304.018463,
+"y": 292.222015,
+"z": 344.660217
+},
+"position": {
+"x": 125.315918,
+"y": 78.0455551,
+"z": -3.48809814
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 302.911346,
+"y": 232.869232,
+"z": 31.62578
+},
+"position": {
+"x": 133.434677,
+"y": 63.2017441,
+"z": -0.2501068
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 47.96376,
+"y": 35.15601,
+"z": 304.844879
+},
+"position": {
+"x": 134.806152,
+"y": 55.76567,
+"z": -22.7150726
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 340.168335,
+"y": 2.339275,
+"z": 297.156555
+},
+"position": {
+"x": 128.924957,
+"y": 66.41189,
+"z": -27.8538437
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 26.25073,
+"y": 55.0509071,
+"z": 333.16214
+},
+"position": {
+"x": 75.99598,
+"y": 99.9399643,
+"z": -44.22841
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 312.879822,
+"y": 322.31192,
+"z": 336.697235
+},
+"position": {
+"x": 89.82144,
+"y": 85.42838,
+"z": -51.14438
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 339.754761,
+"y": 350.8984,
+"z": 318.3744
+},
+"position": {
+"x": 90.63518,
+"y": 89.3530045,
+"z": -34.8681335
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 26.0027637,
+"y": 144.630737,
+"z": 6.33960056
+},
+"position": {
+"x": 52.65927,
+"y": 109.871162,
+"z": -50.32007
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 333.453339,
+"y": 358.175568,
+"z": 337.3941
+},
+"position": {
+"x": 56.35537,
+"y": 127.151726,
+"z": -49.0608826
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 336.294861,
+"y": 346.508453,
+"z": 336.639374
+},
+"position": {
+"x": 69.29598,
+"y": 122.9154,
+"z": -43.539505
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 326.351929,
+"y": 266.264343,
+"z": 15.9972353
+},
+"position": {
+"x": 80.94844,
+"y": 119.067741,
+"z": -32.23497
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 322.8163,
+"y": 262.825378,
+"z": 13.7131643
+},
+"position": {
+"x": 86.9479,
+"y": 117.450157,
+"z": -18.8579712
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 357.146973,
+"y": 169.987427,
+"z": 34.109066
+},
+"position": {
+"x": 78.65893,
+"y": 122.811333,
+"z": 22.28357
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.964661,
+"y": 218.469559,
+"z": 13.9810238
+},
+"position": {
+"x": 67.76849,
+"y": 130.500549,
+"z": 13.7130127
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.482239,
+"y": 297.09494,
+"z": 352.590881
+},
+"position": {
+"x": 60.0173264,
+"y": 135.040771,
+"z": -3.96714783
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 328.625854,
+"y": 270.413,
+"z": 357.333923
+},
+"position": {
+"x": 78.9538651,
+"y": 124.534172,
+"z": 4.26464844
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 341.41684,
+"y": 333.834381,
+"z": 321.73172
+},
+"position": {
+"x": 94.9574,
+"y": 112.607292,
+"z": 9.908676
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 20.1165371,
+"y": 153.615448,
+"z": 23.6881847
+},
+"position": {
+"x": 73.2942047,
+"y": 127.136772,
+"z": -15.1898956
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 343.946869,
+"y": 289.1405,
+"z": 355.213257
+},
+"position": {
+"x": 48.9099045,
+"y": 138.291046,
+"z": -16.6412964
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.569855,
+"y": 358.5887,
+"z": 347.931458
+},
+"position": {
+"x": 36.2931976,
+"y": 139.80246,
+"z": -30.3667755
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 348.6601,
+"y": 21.1863937,
+"z": 342.95
+},
+"position": {
+"x": 24.133728,
+"y": 138.46402,
+"z": -45.44909
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.3429,
+"y": 323.66153,
+"z": 5.116211
+},
+"position": {
+"x": 27.2751312,
+"y": 131.308228,
+"z": -61.71907
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 12.1509428,
+"y": 213.329773,
+"z": 30.2633972
+},
+"position": {
+"x": 45.4184875,
+"y": 127.407936,
+"z": -58.45508
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 5.69723463,
+"y": 217.5492,
+"z": 24.8774471
+},
+"position": {
+"x": 38.6319046,
+"y": 134.423309,
+"z": -47.32676
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.332916,
+"y": 246.2248,
+"z": 18.70521
+},
+"position": {
+"x": 51.4131,
+"y": 134.3042,
+"z": -33.61473
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 12.7218676,
+"y": 47.6469841,
+"z": 333.026581
+},
+"position": {
+"x": 70.32412,
+"y": 126.81707,
+"z": -27.883667
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.8664227,
+"y": 106.533417,
+"z": 359.769867
+},
+"position": {
+"x": 62.7484436,
+"y": 132.594116,
+"z": -16.0591736
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 347.532837,
+"y": 69.67066,
+"z": 316.293457
+},
+"position": {
+"x": 24.1396027,
+"y": 90.27639,
+"z": -91.18034
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 338.723267,
+"y": 71.14743,
+"z": 312.248383
+},
+"position": {
+"x": 12.3397446,
+"y": 83.52065,
+"z": -97.67287
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 330.984741,
+"y": 68.0740356,
+"z": 312.2566
+},
+"position": {
+"x": 0.7747421,
+"y": 75.0968857,
+"z": -103.953659
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 316.264221,
+"y": 62.48083,
+"z": 313.047028
+},
+"position": {
+"x": -6.899708,
+"y": 60.8873672,
+"z": -112.494507
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 299.9513,
+"y": 54.3445358,
+"z": 315.233276
+},
+"position": {
+"x": -9.377604,
+"y": 45.32583,
+"z": -119.328354
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 281.489563,
+"y": 21.2209263,
+"z": 339.16394
+},
+"position": {
+"x": -4.32954025,
+"y": 28.8623962,
+"z": -124.745255
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 288.670776,
+"y": 286.293823,
+"z": 72.85305
+},
+"position": {
+"x": 5.30097961,
+"y": 13.9697189,
+"z": -127.175949
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 317.656647,
+"y": 262.007965,
+"z": 90.06761
+},
+"position": {
+"x": 20.0279884,
+"y": 4.281906,
+"z": -126.58783
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 305.8337,
+"y": 259.411682,
+"z": 90.06621
+},
+"position": {
+"x": 33.117836,
+"y": -5.09293747,
+"z": -124.7198
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 319.059875,
+"y": 251.93454,
+"z": 96.5206
+},
+"position": {
+"x": 48.41011,
+"y": -13.2235107,
+"z": -120.817276
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.9633,
+"y": 247.762451,
+"z": 99.9561539
+},
+"position": {
+"x": 61.7028961,
+"y": -19.0030136,
+"z": -116.07338
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 339.9359,
+"y": 72.27394,
+"z": 270.021545
+},
+"position": {
+"x": 57.3773727,
+"y": -0.9452286,
+"z": -119.001694
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 318.715118,
+"y": 61.5465279,
+"z": 274.1031
+},
+"position": {
+"x": 70.491806,
+"y": 11.0298538,
+"z": -113.692352
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 3.57210159,
+"y": 69.6214447,
+"z": 287.9992
+},
+"position": {
+"x": 62.7258148,
+"y": 44.46656,
+"z": -109.60054
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 35.5296555,
+"y": 96.8536148,
+"z": 306.793457
+},
+"position": {
+"x": 48.540062,
+"y": 70.46398,
+"z": -101.626762
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 47.81605,
+"y": 140.650879,
+"z": 342.418335
+},
+"position": {
+"x": 44.7136154,
+"y": 85.70974,
+"z": -91.47911
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 31.83795,
+"y": 140.039444,
+"z": 339.906219
+},
+"position": {
+"x": 24.5037231,
+"y": 99.26905,
+"z": -81.1988144
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 20.2365913,
+"y": 202.325348,
+"z": 22.4438553
+},
+"position": {
+"x": 42.9304962,
+"y": 105.450462,
+"z": -67.01887
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 21.5423374,
+"y": 134.602722,
+"z": 341.132874
+},
+"position": {
+"x": 14.5795593,
+"y": 108.681023,
+"z": -68.4245453
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 3.02916026,
+"y": 105.257721,
+"z": 330.1657
+},
+"position": {
+"x": -13.30205,
+"y": 111.796959,
+"z": -61.0393066
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.40504,
+"y": 162.876633,
+"z": 349.0948
+},
+"position": {
+"x": -14.3316956,
+"y": 118.740379,
+"z": -45.65114
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 9.852775,
+"y": 231.767334,
+"z": 12.5054569
+},
+"position": {
+"x": -5.751602,
+"y": 124.422661,
+"z": -30.2557983
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 357.797943,
+"y": 253.417557,
+"z": 11.9139223
+},
+"position": {
+"x": 7.438858,
+"y": 126.430504,
+"z": -19.2777176
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 0.5079339,
+"y": 231.412445,
+"z": 6.374348
+},
+"position": {
+"x": 17.5569611,
+"y": 126.641228,
+"z": -7.927849
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 348.9856,
+"y": 332.000031,
+"z": 348.323273
+},
+"position": {
+"x": 36.99218,
+"y": 122.479546,
+"z": -6.52701569
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 339.3367,
+"y": 271.9395,
+"z": 354.2853
+},
+"position": {
+"x": 47.9883652,
+"y": 118.009377,
+"z": 12.6943359
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.416977,
+"y": 333.547028,
+"z": 4.847424
+},
+"position": {
+"x": -17.8477554,
+"y": 126.808281,
+"z": -0.384307861
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 352.560059,
+"y": 122.683952,
+"z": 1.61854351
+},
+"position": {
+"x": -15.3189049,
+"y": 125.989159,
+"z": 17.24112
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 332.929,
+"y": 68.45837,
+"z": 359.799927
+},
+"position": {
+"x": -50.7146835,
+"y": 116.424782,
+"z": -17.244072
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.852,
+"y": 75.5886,
+"z": 356.453949
+},
+"position": {
+"x": -75.93673,
+"y": 100.145409,
+"z": -24.9021454
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.67694783,
+"y": 355.55603,
+"z": 40.93635
+},
+"position": {
+"x": -96.29196,
+"y": 111.576683,
+"z": -3.381691
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 30.48705,
+"y": 313.851654,
+"z": 28.3231373
+},
+"position": {
+"x": -88.1173859,
+"y": 118.571922,
+"z": -4.00733948
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 14.3568783,
+"y": 330.769836,
+"z": 26.52792
+},
+"position": {
+"x": -77.03303,
+"y": 126.285118,
+"z": -2.73903656
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.1295414,
+"y": 318.461456,
+"z": 18.20471
+},
+"position": {
+"x": -66.8462143,
+"y": 132.043884,
+"z": -1.30535889
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 19.3061237,
+"y": 278.7953,
+"z": 1.433417
+},
+"position": {
+"x": -54.7257156,
+"y": 136.854065,
+"z": 3.38465881
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 17.77915,
+"y": 298.579254,
+"z": 7.782229
+},
+"position": {
+"x": -44.2885857,
+"y": 140.269531,
+"z": 12.161087
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 346.699615,
+"y": 146.408768,
+"z": 353.1463
+},
+"position": {
+"x": -30.5604534,
+"y": 142.934723,
+"z": 20.6611786
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 15.0300093,
+"y": 34.6508446,
+"z": 8.012924
+},
+"position": {
+"x": -6.69376373,
+"y": 140.600616,
+"z": 44.14299
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 13.5907946,
+"y": 91.99797,
+"z": 18.7889385
+},
+"position": {
+"x": 5.572151,
+"y": 136.217682,
+"z": 55.7612
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 349.884674,
+"y": 111.525772,
+"z": 27.02037
+},
+"position": {
+"x": 1.65416718,
+"y": 129.33075,
+"z": 70.2526245
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 322.295837,
+"y": 201.397446,
+"z": 352.011169
+},
+"position": {
+"x": 14.4034729,
+"y": 117.897758,
+"z": 88.03436
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 336.927063,
+"y": 120.185173,
+"z": 32.1667557
+},
+"position": {
+"x": 0.6325302,
+"y": 109.251945,
+"z": 99.4658051
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 347.8736,
+"y": 266.610443,
+"z": 312.1407
+},
+"position": {
+"x": 18.1718521,
+"y": 97.50408,
+"z": 109.916977
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.47345,
+"y": 255.086288,
+"z": 305.011719
+},
+"position": {
+"x": 25.8211365,
+"y": 75.61947,
+"z": 124.656937
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 311.889862,
+"y": 259.8903,
+"z": 300.9161
+},
+"position": {
+"x": 29.9956665,
+"y": 49.0243759,
+"z": 135.839188
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 54.0170059,
+"y": 318.9045,
+"z": 315.769
+},
+"position": {
+"x": 16.658062,
+"y": 55.8363266,
+"z": 135.605972
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 59.8846741,
+"y": 355.660156,
+"z": 351.98703
+},
+"position": {
+"x": 3.26047134,
+"y": 67.553154,
+"z": 131.829849
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 51.0239372,
+"y": 14.5832825,
+"z": 14.2056952
+},
+"position": {
+"x": -6.35670853,
+"y": 83.6342545,
+"z": 121.180832
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 355.244751,
+"y": 267.53067,
+"z": 303.502625
+},
+"position": {
+"x": 9.165043,
+"y": 82.461586,
+"z": 122.058151
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 312.8271,
+"y": 249.12175,
+"z": 308.265381
+},
+"position": {
+"x": 20.46883,
+"y": 68.1116257,
+"z": 129.21962
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.68909,
+"y": 72.10735,
+"z": 47.2405052
+},
+"position": {
+"x": -9.994888,
+"y": 99.06878,
+"z": 109.24498
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.9730835,
+"y": 12.02545,
+"z": 17.2199974
+},
+"position": {
+"x": -24.928978,
+"y": 113.082787,
+"z": 91.70822
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 31.7573681,
+"y": 22.1980038,
+"z": 12.7721939
+},
+"position": {
+"x": -23.437088,
+"y": 140.879852,
+"z": 73.03169
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 3.37431,
+"y": 56.5558167,
+"z": 24.681057
+},
+"position": {
+"x": -45.3347,
+"y": 145.865479,
+"z": 59.35582
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.1276073,
+"y": 237.586243,
+"z": 337.493317
+},
+"position": {
+"x": -67.17801,
+"y": 129.194244,
+"z": 23.2204132
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 6.57373762,
+"y": 212.791733,
+"z": 338.9807
+},
+"position": {
+"x": -54.3172,
+"y": 135.5513,
+"z": 19.8471069
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.4796066,
+"y": 280.887482,
+"z": 359.223053
+},
+"position": {
+"x": -70.92561,
+"y": 129.377533,
+"z": 7.929657
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 20.8179245,
+"y": 229.466553,
+"z": 328.031677
+},
+"position": {
+"x": -82.42843,
+"y": 120.603325,
+"z": 24.1595764
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 24.976347,
+"y": 327.254,
+"z": 29.0448818
+},
+"position": {
+"x": -89.06514,
+"y": 117.922112,
+"z": 8.074036
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.056397,
+"y": 356.462067,
+"z": 46.488575
+},
+"position": {
+"x": -103.317131,
+"y": 105.175804,
+"z": 8.325226
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 341.326538,
+"y": 18.4021435,
+"z": 49.1385956
+},
+"position": {
+"x": -114.09819,
+"y": 92.9205551,
+"z": 7.259857
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 310.2989,
+"y": 53.77812,
+"z": 31.412075
+},
+"position": {
+"x": -123.922607,
+"y": 79.58738,
+"z": 11.436676
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 307.032074,
+"y": 150.981171,
+"z": 315.5706
+},
+"position": {
+"x": -130.800735,
+"y": 65.02169,
+"z": 24.0161133
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 314.4743,
+"y": 172.164536,
+"z": 298.4761
+},
+"position": {
+"x": -134.910736,
+"y": 49.99639,
+"z": 32.8174438
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.360565,
+"y": 177.254913,
+"z": 286.860779
+},
+"position": {
+"x": -138.5315,
+"y": 35.5423126,
+"z": 37.4463654
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 61.6317329,
+"y": 206.4579,
+"z": 283.095
+},
+"position": {
+"x": -141.832123,
+"y": 17.1264572,
+"z": 36.76094
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 58.6576233,
+"y": 212.232727,
+"z": 287.167664
+},
+"position": {
+"x": -136.5034,
+"y": 29.1484146,
+"z": 48.90355
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 15.0007963,
+"y": 22.0533047,
+"z": 73.58329
+},
+"position": {
+"x": -130.248978,
+"y": 37.2693558,
+"z": 57.81224
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 73.90143,
+"y": 299.925873,
+"z": 357.297638
+},
+"position": {
+"x": -121.94165,
+"y": 45.60067,
+"z": 68.34038
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 56.27584,
+"y": 253.953247,
+"z": 312.087463
+},
+"position": {
+"x": -114.23188,
+"y": 51.79727,
+"z": 78.36693
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 61.4815331,
+"y": 299.4201,
+"z": 353.1714
+},
+"position": {
+"x": -104.920448,
+"y": 60.76693,
+"z": 84.16823
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 59.89702,
+"y": 287.6711,
+"z": 335.994354
+},
+"position": {
+"x": -95.8961,
+"y": 66.79478,
+"z": 90.47032
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 55.2156677,
+"y": 340.2155,
+"z": 21.3488216
+},
+"position": {
+"x": -84.08945,
+"y": 79.67443,
+"z": 91.149765
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 22.4927921,
+"y": 22.1120853,
+"z": 48.6647339
+},
+"position": {
+"x": -78.66899,
+"y": 92.2265244,
+"z": 84.76997
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 31.06562,
+"y": 15.0993118,
+"z": 33.9909134
+},
+"position": {
+"x": -69.38808,
+"y": 103.956413,
+"z": 78.1927643
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 347.9244,
+"y": 64.80919,
+"z": 43.3742256
+},
+"position": {
+"x": -58.1753044,
+"y": 110.773842,
+"z": 78.2561951
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 323.620422,
+"y": 126.331764,
+"z": 14.7549353
+},
+"position": {
+"x": -46.28888,
+"y": 114.6856,
+"z": 81.1225739
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 326.3606,
+"y": 188.758926,
+"z": 340.889343
+},
+"position": {
+"x": -36.150074,
+"y": 113.222435,
+"z": 87.5580444
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 51.83831,
+"y": 221.3261,
+"z": 178.974884
+},
+"position": {
+"x": 68.6047058,
+"y": -79.85795,
+"z": 73.0940857
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.98136,
+"y": 159.448166,
+"z": 139.595108
+},
+"position": {
+"x": 56.4428558,
+"y": -77.3732,
+"z": 85.15117
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 32.0715981,
+"y": 137.057587,
+"z": 132.592
+},
+"position": {
+"x": 39.7493973,
+"y": -74.9091,
+"z": 96.0634155
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 43.34335,
+"y": 143.2574,
+"z": 138.315628
+},
+"position": {
+"x": 27.1219177,
+"y": -68.01032,
+"z": 105.130432
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 56.13539,
+"y": 237.3743,
+"z": 221.157532
+},
+"position": {
+"x": 25.8306885,
+"y": -54.85501,
+"z": 112.832047
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 54.51608,
+"y": 249.31601,
+"z": 233.275253
+},
+"position": {
+"x": 27.5599213,
+"y": -40.7878342,
+"z": 118.3105
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 70.15909,
+"y": 249.317215,
+"z": 237.097809
+},
+"position": {
+"x": 26.2258148,
+"y": -27.15723,
+"z": 122.35965
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 46.0920448,
+"y": 275.085266,
+"z": 262.370056
+},
+"position": {
+"x": 29.0529556,
+"y": -13.8885,
+"z": 123.959732
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 41.58736,
+"y": 285.6783,
+"z": 269.808228
+},
+"position": {
+"x": 35.60367,
+"y": 1.620224,
+"z": 122.915466
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 324.0994,
+"y": 107.632141,
+"z": 91.10463
+},
+"position": {
+"x": 52.8564758,
+"y": -10.2145538,
+"z": 137.429245
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 302.20047,
+"y": 93.62416,
+"z": 108.289337
+},
+"position": {
+"x": 45.52922,
+"y": -21.6948853,
+"z": 138.821976
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 288.77655,
+"y": 18.2266941,
+"z": 174.705917
+},
+"position": {
+"x": 42.7606735,
+"y": -34.0204163,
+"z": 137.023026
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.900574,
+"y": 313.576172,
+"z": 241.308777
+},
+"position": {
+"x": 45.1255569,
+"y": -46.2934723,
+"z": 132.760666
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 341.049438,
+"y": 297.841034,
+"z": 245.563522
+},
+"position": {
+"x": 46.3109741,
+"y": -59.0612869,
+"z": 127.239639
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.5071,
+"y": 330.6106,
+"z": 221.705261
+},
+"position": {
+"x": 43.0588531,
+"y": -68.62024,
+"z": 123.555069
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 350.78476,
+"y": 302.1409,
+"z": 239.1117
+},
+"position": {
+"x": 53.1400223,
+"y": -74.1288757,
+"z": 116.111069
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.68900633,
+"y": 295.7627,
+"z": 232.155426
+},
+"position": {
+"x": 64.81571,
+"y": -74.34674,
+"z": 109.908127
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 359.394257,
+"y": 307.850983,
+"z": 231.80069
+},
+"position": {
+"x": 79.05027,
+"y": -75.41191,
+"z": 99.42845
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 6.051163,
+"y": 312.717,
+"z": 240.479218
+},
+"position": {
+"x": 90.45233,
+"y": -76.82328,
+"z": 87.7697754
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 344.3716,
+"y": 335.2251,
+"z": 235.102844
+},
+"position": {
+"x": 100.629517,
+"y": -80.32742,
+"z": 71.94806
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 1.33323491,
+"y": 333.202026,
+"z": 237.990158
+},
+"position": {
+"x": 108.501984,
+"y": -81.1686859,
+"z": 58.4781952
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.58331347,
+"y": 157.419876,
+"z": 115.66465
+},
+"position": {
+"x": 119.141113,
+"y": -67.66993,
+"z": 55.21837
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.57355,
+"y": 171.995483,
+"z": 115.248962
+},
+"position": {
+"x": 120.805115,
+"y": -58.26827,
+"z": 61.9203644
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 21.842205,
+"y": 156.466812,
+"z": 112.920586
+},
+"position": {
+"x": 120.320267,
+"y": -50.0058441,
+"z": 69.51759
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 359.826874,
+"y": 147.45929,
+"z": 111.192261
+},
+"position": {
+"x": 115.525574,
+"y": -47.6002655,
+"z": 78.78856
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 17.3064079,
+"y": 145.508438,
+"z": 104.345055
+},
+"position": {
+"x": 108.61908,
+"y": -44.22723,
+"z": 89.37923
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 46.66142,
+"y": 154.925674,
+"z": 108.16507
+},
+"position": {
+"x": 103.5968,
+"y": -37.0565262,
+"z": 98.1423
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 22.4037571,
+"y": 138.48468,
+"z": 103.5337
+},
+"position": {
+"x": 97.3002,
+"y": -31.5780411,
+"z": 105.941177
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 16.3230114,
+"y": 134.989517,
+"z": 103.566833
+},
+"position": {
+"x": 90.0336,
+"y": -28.2443619,
+"z": 113.669312
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 46.6400566,
+"y": 135.920837,
+"z": 99.8945
+},
+"position": {
+"x": 84.8681641,
+"y": -18.8993378,
+"z": 119.170792
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.3073311,
+"y": 121.247467,
+"z": 94.1229858
+},
+"position": {
+"x": 78.632225,
+"y": -8.368675,
+"z": 124.741394
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 329.2238,
+"y": 116.914429,
+"z": 91.62584
+},
+"position": {
+"x": 72.05677,
+"y": -2.37817764,
+"z": 128.779922
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 282.040466,
+"y": 111.182076,
+"z": 96.71076
+},
+"position": {
+"x": 62.8383942,
+"y": -3.0245285,
+"z": 133.611435
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 308.809,
+"y": 303.114868,
+"z": 257.397125
+},
+"position": {
+"x": 63.0473328,
+"y": -16.9216843,
+"z": 132.429581
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 283.7445,
+"y": 21.4163742,
+"z": 181.085938
+},
+"position": {
+"x": 56.3978653,
+"y": -33.9872246,
+"z": 132.121658
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 1.22424412,
+"y": 302.6378,
+"z": 255.239075
+},
+"position": {
+"x": 74.1310043,
+"y": -31.0769958,
+"z": 124.061539
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 304.040375,
+"y": 334.315674,
+"z": 234.5886
+},
+"position": {
+"x": 73.17036,
+"y": -50.6736069,
+"z": 117.870743
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 11.1808758,
+"y": 303.6385,
+"z": 250.604446
+},
+"position": {
+"x": 87.93387,
+"y": -45.1286469,
+"z": 109.623367
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 24.0030079,
+"y": 313.700775,
+"z": 240.9258
+},
+"position": {
+"x": 109.260483,
+"y": -64.48638,
+"z": 75.1494751
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.486328,
+"y": 358.214081,
+"z": 256.175568
+},
+"position": {
+"x": 123.348267,
+"y": -25.15654,
+"z": 22.9904785
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 5.543573,
+"y": 354.078064,
+"z": 264.604645
+},
+"position": {
+"x": 126.511017,
+"y": -10.6293182,
+"z": 16.4082184
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.2925777,
+"y": 5.13609457,
+"z": 281.8843
+},
+"position": {
+"x": 126.255554,
+"y": 20.8921432,
+"z": 1.7346344
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 72.00514,
+"y": 54.55781,
+"z": 331.2865
+},
+"position": {
+"x": 122.9653,
+"y": 32.4266968,
+"z": 14.6956787
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 60.6016655,
+"y": 110.944572,
+"z": 33.41958
+},
+"position": {
+"x": 114.248474,
+"y": 49.1097336,
+"z": 30.7659149
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 34.8407021,
+"y": 133.578873,
+"z": 55.6850548
+},
+"position": {
+"x": 105.189713,
+"y": 56.6262131,
+"z": 46.3560333
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 15.0203428,
+"y": 137.569061,
+"z": 60.2151451
+},
+"position": {
+"x": 93.5556641,
+"y": 61.3916779,
+"z": 62.3992
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 314.216125,
+"y": 191.144424,
+"z": 27.6399136
+},
+"position": {
+"x": 74.85284,
+"y": 77.3998,
+"z": 69.54097
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.7385559,
+"y": 17.38833,
+"z": 339.1706
+},
+"position": {
+"x": 64.0767059,
+"y": 97.62939,
+"z": 52.71547
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 342.24173,
+"y": 305.9245,
+"z": 321.656433
+},
+"position": {
+"x": 72.4832458,
+"y": 94.72491,
+"z": 46.7623444
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 358.084625,
+"y": 108.709633,
+"z": 21.3049068
+},
+"position": {
+"x": 11.70895,
+"y": 118.825127,
+"z": 46.0908051
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 323.390747,
+"y": 163.249588,
+"z": 22.6288414
+},
+"position": {
+"x": 26.1657715,
+"y": 95.89507,
+"z": 80.81889
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 312.52536,
+"y": 172.3837,
+"z": 21.5388184
+},
+"position": {
+"x": 33.36934,
+"y": 80.6900558,
+"z": 93.75935
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 304.643372,
+"y": 173.017944,
+"z": 23.8062878
+},
+"position": {
+"x": 38.17923,
+"y": 66.36352,
+"z": 102.691422
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 295.216644,
+"y": 160.399475,
+"z": 37.347538
+},
+"position": {
+"x": 41.7563324,
+"y": 44.93215,
+"z": 112.399109
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 325.793365,
+"y": 112.989494,
+"z": 77.52572
+},
+"position": {
+"x": 38.5694656,
+"y": 26.7528,
+"z": 119.20546
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 71.5078,
+"y": 66.48607,
+"z": 54.411972
+},
+"position": {
+"x": 17.853096,
+"y": 27.8477631,
+"z": 123.801514
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 67.2864456,
+"y": 47.2296638,
+"z": 44.9238777
+},
+"position": {
+"x": 3.9944458,
+"y": 37.713295,
+"z": 122.303177
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 59.9489,
+"y": 30.1558113,
+"z": 31.8548679
+},
+"position": {
+"x": -9.380121,
+"y": 50.3399734,
+"z": 117.422653
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 58.8350372,
+"y": 10.81849,
+"z": 18.5533085
+},
+"position": {
+"x": -19.3875732,
+"y": 65.62214,
+"z": 108.273636
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 50.10825,
+"y": 358.79657,
+"z": 11.6602354
+},
+"position": {
+"x": -26.0682678,
+"y": 79.93499,
+"z": 96.67326
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 19.07271,
+"y": 45.16345,
+"z": 43.8005562
+},
+"position": {
+"x": -41.9209633,
+"y": 87.13189,
+"z": 84.08057
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.463043,
+"y": 177.250259,
+"z": 335.042572
+},
+"position": {
+"x": -58.5539551,
+"y": 75.20013,
+"z": 85.6736
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 317.2692,
+"y": 74.74471,
+"z": 56.02464
+},
+"position": {
+"x": -76.56254,
+"y": 52.81137,
+"z": 88.15636
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 341.081665,
+"y": 45.9684448,
+"z": 72.51344
+},
+"position": {
+"x": -93.5533142,
+"y": 38.26306,
+"z": 78.75075
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 343.821259,
+"y": 32.2796249,
+"z": 80.0448
+},
+"position": {
+"x": -107.456772,
+"y": 25.59597,
+"z": 65.01279
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 346.140839,
+"y": 22.0832253,
+"z": 84.83543
+},
+"position": {
+"x": -117.716064,
+"y": 14.60183,
+"z": 48.29657
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 58.0988541,
+"y": 199.25705,
+"z": 280.050629
+},
+"position": {
+"x": -125.023239,
+"y": 13.542099,
+"z": 23.60048
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 65.38252,
+"y": 228.5172,
+"z": 310.54718
+},
+"position": {
+"x": -122.810059,
+"y": 31.136528,
+"z": 18.8824921
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 67.65953,
+"y": 298.102783,
+"z": 21.1931515
+},
+"position": {
+"x": -118.598709,
+"y": 46.9265137,
+"z": 10.7289581
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 53.58336,
+"y": 309.519867,
+"z": 33.5737228
+},
+"position": {
+"x": -110.534012,
+"y": 64.60464,
+"z": -1.48846436
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 48.3048973,
+"y": 253.202652,
+"z": 347.320557
+},
+"position": {
+"x": -99.12008,
+"y": 81.15472,
+"z": -4.53659058
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 40.5373573,
+"y": 261.425842,
+"z": 358.659973
+},
+"position": {
+"x": -84.2934341,
+"y": 95.63389,
+"z": -13.2268524
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 303.2758,
+"y": 89.93018,
+"z": 346.973938
+},
+"position": {
+"x": -102.311073,
+"y": 70.43749,
+"z": -31.2616577
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 286.14917,
+"y": 70.4627151,
+"z": 13.6693544
+},
+"position": {
+"x": -120.737015,
+"y": 39.7632751,
+"z": -16.309433
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 281.97403,
+"y": 116.610794,
+"z": 333.887329
+},
+"position": {
+"x": -125.564972,
+"y": 24.5366287,
+"z": 0.08621216
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 293.420044,
+"y": 18.02235,
+"z": 76.280365
+},
+"position": {
+"x": -127.610413,
+"y": 8.819923,
+"z": 6.64213562
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 60.49874,
+"y": 132.918427,
+"z": 248.505112
+},
+"position": {
+"x": -120.077644,
+"y": -16.5755844,
+"z": -55.29975
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 17.6724586,
+"y": 154.163315,
+"z": 255.517487
+},
+"position": {
+"x": -122.601089,
+"y": -21.0107918,
+"z": -47.28022
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 358.417,
+"y": 167.977463,
+"z": 256.283081
+},
+"position": {
+"x": -123.755821,
+"y": -25.8347321,
+"z": -38.94539
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 62.22144,
+"y": 34.0963745,
+"z": 140.134628
+},
+"position": {
+"x": -119.504684,
+"y": -36.45791,
+"z": -40.7990265
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.58974,
+"y": 354.0093,
+"z": 127.03241
+},
+"position": {
+"x": -113.37133,
+"y": -44.48912,
+"z": -45.57846
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 61.7636452,
+"y": 92.9335556,
+"z": 208.190048
+},
+"position": {
+"x": -110.9834,
+"y": -40.01886,
+"z": -56.5510864
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 58.62645,
+"y": 2.374214,
+"z": 137.710678
+},
+"position": {
+"x": -106.042343,
+"y": -35.4072075,
+"z": -67.0693359
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 66.3846,
+"y": 350.7702,
+"z": 124.874809
+},
+"position": {
+"x": -108.123138,
+"y": -23.9947052,
+"z": -70.5686646
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.9078,
+"y": 141.548828,
+"z": 258.109772
+},
+"position": {
+"x": -107.043495,
+"y": -13.492363,
+"z": -74.55921
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 304.090027,
+"y": 141.585022,
+"z": 265.770142
+},
+"position": {
+"x": -111.424393,
+"y": -8.403954,
+"z": -70.0922
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.711853,
+"y": 322.4744,
+"z": 99.9363556
+},
+"position": {
+"x": -116.409332,
+"y": -12.0779762,
+"z": -62.86611
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 26.6007385,
+"y": 290.704285,
+"z": 105.455521
+},
+"position": {
+"x": -38.9830437,
+"y": -26.9823952,
+"z": -139.956421
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 11.69377,
+"y": 283.1305,
+"z": 101.101341
+},
+"position": {
+"x": -29.2673779,
+"y": -24.3404617,
+"z": -142.463531
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 35.3620949,
+"y": 279.664429,
+"z": 97.76969
+},
+"position": {
+"x": -15.5526733,
+"y": -17.54908,
+"z": -145.577286
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 47.3237877,
+"y": 275.2857,
+"z": 97.03174
+},
+"position": {
+"x": -1.685318,
+"y": -9.841522,
+"z": -147.233841
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.925415,
+"y": 264.861969,
+"z": 92.96435
+},
+"position": {
+"x": 10.6635895,
+"y": -5.8613205,
+"z": -147.207611
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 338.864746,
+"y": 258.552734,
+"z": 92.93989
+},
+"position": {
+"x": 23.5736389,
+"y": -10.2253647,
+"z": -145.433838
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 278.803741,
+"y": 136.807236,
+"z": 210.270508
+},
+"position": {
+"x": 24.4540558,
+"y": -21.00283,
+"z": -144.0731
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 288.982483,
+"y": 125.946777,
+"z": 225.64476
+},
+"position": {
+"x": 21.6784668,
+"y": -34.649292,
+"z": -141.842453
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 291.5989,
+"y": 149.878189,
+"z": 202.111725
+},
+"position": {
+"x": 19.37962,
+"y": -47.9688759,
+"z": -138.205566
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 315.5571,
+"y": 108.346184,
+"z": 237.355011
+},
+"position": {
+"x": 20.1926918,
+"y": -57.2339172,
+"z": -134.589523
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 16.9830761,
+"y": 79.41828,
+"z": 244.636963
+},
+"position": {
+"x": 10.264637,
+"y": -63.6781273,
+"z": -132.841446
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 10.3258381,
+"y": 80.90929,
+"z": 236.628876
+},
+"position": {
+"x": -0.227462769,
+"y": -66.52699,
+"z": -131.8364
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 23.0638161,
+"y": 86.15928,
+"z": 240.712311
+},
+"position": {
+"x": -10.7243462,
+"y": -69.91257,
+"z": -129.771454
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 21.3121948,
+"y": 83.20054,
+"z": 236.231415
+},
+"position": {
+"x": -18.20508,
+"y": -77.42751,
+"z": -124.362411
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 349.805725,
+"y": 279.4449,
+"z": 116.876846
+},
+"position": {
+"x": -30.88343,
+"y": -69.0083847,
+"z": -126.583557
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 333.269257,
+"y": 276.695526,
+"z": 122.310287
+},
+"position": {
+"x": -44.4486961,
+"y": -74.21624,
+"z": -119.8409
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.2872314,
+"y": 304.3397,
+"z": 113.968452
+},
+"position": {
+"x": -48.25738,
+"y": -57.23688,
+"z": -127.199089
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 22.0568218,
+"y": 298.264526,
+"z": 104.818184
+},
+"position": {
+"x": -54.92347,
+"y": -41.61891,
+"z": -130.5815
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 322.707153,
+"y": 283.4835,
+"z": 100.845726
+},
+"position": {
+"x": -49.5637779,
+"y": -31.8671646,
+"z": -135.3127
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.501526,
+"y": 269.999664,
+"z": 90.00024
+},
+"position": {
+"x": -3.896862,
+"y": 2.19189453,
+"z": -127.922852
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.0063686,
+"y": 277.910675,
+"z": 83.92146
+},
+"position": {
+"x": -23.7751427,
+"y": 10.860611,
+"z": -125.244652
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 359.626953,
+"y": 265.236145,
+"z": 42.80964
+},
+"position": {
+"x": 16.68261,
+"y": 107.147545,
+"z": -100.032913
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 336.6691,
+"y": 301.800842,
+"z": 31.4355259
+},
+"position": {
+"x": 9.48978,
+"y": 115.997154,
+"z": -90.98489
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 336.187775,
+"y": 314.007874,
+"z": 26.8579273
+},
+"position": {
+"x": -0.0875167847,
+"y": 121.252342,
+"z": -84.29988
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 4.46876669,
+"y": 277.109619,
+"z": 35.9845657
+},
+"position": {
+"x": -16.6976681,
+"y": 123.166985,
+"z": -79.84541
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 351.0119,
+"y": 306.548279,
+"z": 35.9728737
+},
+"position": {
+"x": -33.5060654,
+"y": 122.039391,
+"z": -76.1896
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.5323,
+"y": 21.54177,
+"z": 4.31226444
+},
+"position": {
+"x": -46.2843437,
+"y": 113.116112,
+"z": -82.71565
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 322.746063,
+"y": 345.171753,
+"z": 28.2689037
+},
+"position": {
+"x": -52.0831146,
+"y": 100.77343,
+"z": -94.4142456
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.563324,
+"y": 31.3250275,
+"z": 359.104828
+},
+"position": {
+"x": -69.0112839,
+"y": 85.72134,
+"z": -98.7174454
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 334.8502,
+"y": 315.6508,
+"z": 56.9979553
+},
+"position": {
+"x": -65.94641,
+"y": 70.61108,
+"z": -111.6897
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 321.183533,
+"y": 316.6553,
+"z": 58.3599243
+},
+"position": {
+"x": -62.9726143,
+"y": 55.3658371,
+"z": -121.71376
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 295.175781,
+"y": 330.475647,
+"z": 52.59672
+},
+"position": {
+"x": -63.2754059,
+"y": 41.01474,
+"z": -126.833549
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.107849,
+"y": 305.968658,
+"z": 75.7506256
+},
+"position": {
+"x": -61.2759933,
+"y": 29.0664063,
+"z": -131.013275
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.53577757,
+"y": 288.52478,
+"z": 80.48498
+},
+"position": {
+"x": -49.48747,
+"y": 26.5689316,
+"z": -136.602417
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.177348,
+"y": 281.3681,
+"z": 77.40599
+},
+"position": {
+"x": -35.92383,
+"y": 26.7428665,
+"z": -140.746155
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 10.4520807,
+"y": 277.1443,
+"z": 77.3659
+},
+"position": {
+"x": -22.4744415,
+"y": 30.4700851,
+"z": -142.683
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 37.29958,
+"y": 266.0135,
+"z": 68.11116
+},
+"position": {
+"x": -24.0637436,
+"y": 42.59101,
+"z": -139.3048
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 43.96857,
+"y": 261.238037,
+"z": 61.9839249
+},
+"position": {
+"x": -25.4172287,
+"y": 52.1476669,
+"z": -135.804352
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 37.0744324,
+"y": 257.410919,
+"z": 55.43309
+},
+"position": {
+"x": -23.9122353,
+"y": 64.41894,
+"z": -130.754883
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 35.763546,
+"y": 252.561584,
+"z": 51.0538
+},
+"position": {
+"x": -21.76118,
+"y": 73.90078,
+"z": -125.922714
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 34.9026527,
+"y": 248.454285,
+"z": 41.77398
+},
+"position": {
+"x": -16.4334412,
+"y": 85.96157,
+"z": -119.085144
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.5447941,
+"y": 255.1036,
+"z": 47.511055
+},
+"position": {
+"x": -7.549103,
+"y": 96.39892,
+"z": -111.52713
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 38.31416,
+"y": 150.492767,
+"z": 336.39325
+},
+"position": {
+"x": -13.622406,
+"y": 107.774376,
+"z": -99.8056259
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 1.0319984,
+"y": 109.373367,
+"z": 317.386444
+},
+"position": {
+"x": -34.13878,
+"y": 108.868629,
+"z": -93.5249557
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 32.84583,
+"y": 129.012589,
+"z": 330.832
+},
+"position": {
+"x": -19.429287,
+"y": 103.120567,
+"z": -115.6194
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 24.76669,
+"y": 142.27095,
+"z": 332.676941
+},
+"position": {
+"x": -36.43998,
+"y": 107.790306,
+"z": -109.37001
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 35.3671341,
+"y": 249.244263,
+"z": 28.7123051
+},
+"position": {
+"x": -48.0305252,
+"y": 103.577507,
+"z": -110.191589
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.552338,
+"y": 311.22467,
+"z": 52.0415649
+},
+"position": {
+"x": -56.23133,
+"y": 93.78147,
+"z": -115.555717
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 355.23172,
+"y": 297.230774,
+"z": 61.39836
+},
+"position": {
+"x": -56.1783066,
+"y": 84.64675,
+"z": -122.437523
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 326.0809,
+"y": 303.365936,
+"z": 69.613884
+},
+"position": {
+"x": -53.91732,
+"y": 72.81916,
+"z": -129.176575
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 42.3376427,
+"y": 271.319672,
+"z": 72.98257
+},
+"position": {
+"x": -40.4618874,
+"y": 65.61022,
+"z": -135.602631
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 66.1480942,
+"y": 208.439423,
+"z": 11.4208841
+},
+"position": {
+"x": -43.26682,
+"y": 78.99526,
+"z": -130.426
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 49.3385,
+"y": 216.932755,
+"z": 20.169157
+},
+"position": {
+"x": -39.2253723,
+"y": 94.19199,
+"z": -122.417282
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.3848,
+"y": 315.842255,
+"z": 60.8367958
+},
+"position": {
+"x": -48.8748169,
+"y": 48.85102,
+"z": -130.512177
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 290.330353,
+"y": 60.6570473,
+"z": 319.36615
+},
+"position": {
+"x": -36.3523369,
+"y": 42.0996552,
+"z": -136.845581
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 359.28,
+"y": 285.7475,
+"z": 95.27631
+},
+"position": {
+"x": -31.2655487,
+"y": -15.2019272,
+"z": -123.248245
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 297.669159,
+"y": 130.432388,
+"z": 248.16629
+},
+"position": {
+"x": -46.2145576,
+"y": -20.0779724,
+"z": -117.68515
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 284.8982,
+"y": 185.356049,
+"z": 203.208221
+},
+"position": {
+"x": -61.81295,
+"y": -33.1029434,
+"z": -107.14888
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 335.967926,
+"y": 284.231049,
+"z": 115.861115
+},
+"position": {
+"x": -48.21418,
+"y": -51.5480766,
+"z": -106.868919
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 36.02187,
+"y": 322.0846,
+"z": 136.351837
+},
+"position": {
+"x": -34.1646767,
+"y": -72.91328,
+"z": -99.69868
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 13.71402,
+"y": 291.348145,
+"z": 127.677261
+},
+"position": {
+"x": -18.83137,
+"y": -73.9803543,
+"z": -102.888229
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.7028828,
+"y": 282.993164,
+"z": 125.708977
+},
+"position": {
+"x": -0.305477142,
+"y": -68.21359,
+"z": -108.402939
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 33.6834259,
+"y": 284.158051,
+"z": 126.93502
+},
+"position": {
+"x": 18.03838,
+"y": -59.2798233,
+"z": -112.320534
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 321.228149,
+"y": 97.1220856,
+"z": 243.15567
+},
+"position": {
+"x": 29.1133118,
+"y": -45.1540833,
+"z": -117.18663
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 55.72971,
+"y": 56.33261,
+"z": 242.256958
+},
+"position": {
+"x": 31.1208038,
+"y": -35.79658,
+"z": -120.036484
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 348.808716,
+"y": 84.88469,
+"z": 259.771484
+},
+"position": {
+"x": 28.8248825,
+"y": -22.2548637,
+"z": -123.531525
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 333.072357,
+"y": 251.828766,
+"z": 163.341461
+},
+"position": {
+"x": -41.9004669,
+"y": -107.818642,
+"z": -55.03228
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 333.543579,
+"y": 203.64772,
+"z": 190.230927
+},
+"position": {
+"x": -40.08851,
+"y": -115.050804,
+"z": -39.6500244
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 0.1359209,
+"y": 152.6864,
+"z": 202.94574
+},
+"position": {
+"x": -44.2842865,
+"y": -117.764862,
+"z": -23.5618439
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 354.442169,
+"y": 180.548828,
+"z": 200.708282
+},
+"position": {
+"x": -43.3489456,
+"y": -120.3396,
+"z": -6.68994141
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 1.59937131,
+"y": 192.877014,
+"z": 196.65242
+},
+"position": {
+"x": -38.6631355,
+"y": -121.825195,
+"z": 8.032471
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 5.886363,
+"y": 196.595078,
+"z": 197.923248
+},
+"position": {
+"x": -29.9594345,
+"y": -122.910606,
+"z": 20.1049347
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 12.3161955,
+"y": 197.1347,
+"z": 194.454819
+},
+"position": {
+"x": -18.2819023,
+"y": -123.13652,
+"z": 30.3974762
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 13.3449411,
+"y": 213.506287,
+"z": 188.684235
+},
+"position": {
+"x": -0.311340332,
+"y": -122.332504,
+"z": 37.6103058
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 21.30686,
+"y": 196.377579,
+"z": 180.781937
+},
+"position": {
+"x": 13.20853,
+"y": -118.886581,
+"z": 45.5520935
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 21.70386,
+"y": 162.151169,
+"z": 163.212418
+},
+"position": {
+"x": 24.36525,
+"y": -111.744217,
+"z": 57.7363434
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.6854286,
+"y": 148.067719,
+"z": 149.890152
+},
+"position": {
+"x": 30.7544937,
+"y": -101.015495,
+"z": 72.55885
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 11.0372076,
+"y": 118.755722,
+"z": 136.6284
+},
+"position": {
+"x": 28.14589,
+"y": -90.6698,
+"z": 86.03508
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 328.342,
+"y": 337.28363,
+"z": 213.125687
+},
+"position": {
+"x": 45.1198273,
+"y": -89.3712,
+"z": 80.0099
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 327.232178,
+"y": 16.1590443,
+"z": 189.6119
+},
+"position": {
+"x": 41.8310776,
+"y": -104.636261,
+"z": 60.831192
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 353.195923,
+"y": 214.84906,
+"z": 206.332092
+},
+"position": {
+"x": -51.68004,
+"y": -115.718,
+"z": 18.5868378
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 26.2392788,
+"y": 150.381775,
+"z": 203.6623
+},
+"position": {
+"x": -72.90712,
+"y": -102.950111,
+"z": 22.46791
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 33.9448853,
+"y": 160.636551,
+"z": 212.902786
+},
+"position": {
+"x": -84.07825,
+"y": -91.49283,
+"z": 31.41687
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 37.66946,
+"y": 163.682022,
+"z": 218.650024
+},
+"position": {
+"x": -92.2739639,
+"y": -80.32123,
+"z": 38.14029
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 53.21296,
+"y": 137.9134,
+"z": 206.940475
+},
+"position": {
+"x": -102.1796,
+"y": -72.74164,
+"z": 26.3006287
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 48.52818,
+"y": 45.0331955,
+"z": 137.9266
+},
+"position": {
+"x": -110.898933,
+"y": -62.8703079,
+"z": 11.7871552
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 331.700623,
+"y": 335.8232,
+"z": 133.433075
+},
+"position": {
+"x": -101.847923,
+"y": -77.6400452,
+"z": 1.49926758
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.143829,
+"y": 298.3094,
+"z": 160.958466
+},
+"position": {
+"x": -89.13872,
+"y": -92.00178,
+"z": 0.28616333
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 326.097443,
+"y": 274.8929,
+"z": 181.719757
+},
+"position": {
+"x": -72.61286,
+"y": -105.445923,
+"z": 5.43611145
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 349.1628,
+"y": 330.7463,
+"z": 152.010513
+},
+"position": {
+"x": -63.67703,
+"y": -110.488373,
+"z": -11.4110489
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.8140011,
+"y": 205.068466,
+"z": 187.76004
+},
+"position": {
+"x": 2.3115387,
+"y": -132.030655,
+"z": 65.5782
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 29.0925655,
+"y": 169.74234,
+"z": 166.059235
+},
+"position": {
+"x": 12.3803177,
+"y": -127.993446,
+"z": 72.76756
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 24.7434731,
+"y": 151.7849,
+"z": 155.998322
+},
+"position": {
+"x": 15.463726,
+"y": -122.457382,
+"z": 81.07291
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 358.918518,
+"y": 96.70058,
+"z": 141.210251
+},
+"position": {
+"x": 16.28041,
+"y": -115.31778,
+"z": 90.86893
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 343.186523,
+"y": 72.305,
+"z": 139.16925
+},
+"position": {
+"x": 3.43617249,
+"y": -108.543678,
+"z": 99.9755554
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 0.490418673,
+"y": 87.64501,
+"z": 131.522766
+},
+"position": {
+"x": -7.40207672,
+"y": -95.9316559,
+"z": 111.935928
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.550419,
+"y": 101.374557,
+"z": 128.643814
+},
+"position": {
+"x": -9.629448,
+"y": -82.58934,
+"z": 122.1187
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.9057,
+"y": 24.3386211,
+"z": 150.772446
+},
+"position": {
+"x": -22.41207,
+"y": -81.76346,
+"z": 120.979584
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 321.266235,
+"y": 50.56593,
+"z": 120.754013
+},
+"position": {
+"x": -40.31329,
+"y": -77.76356,
+"z": 118.880676
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 309.867981,
+"y": 15.6328487,
+"z": 145.7516
+},
+"position": {
+"x": -54.5852432,
+"y": -78.3185,
+"z": 112.494293
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 306.80603,
+"y": 9.7278595,
+"z": 141.565292
+},
+"position": {
+"x": -69.07735,
+"y": -71.32318,
+"z": 109.411133
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 300.5326,
+"y": 6.82317924,
+"z": 143.864166
+},
+"position": {
+"x": -80.56201,
+"y": -62.74905,
+"z": 106.6389
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 300.4963,
+"y": 3.69429183,
+"z": 138.351135
+},
+"position": {
+"x": -93.75174,
+"y": -57.0756073,
+"z": 98.79387
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 299.200531,
+"y": 1.92802429,
+"z": 132.678726
+},
+"position": {
+"x": -106.611237,
+"y": -46.57273,
+"z": 91.05769
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 294.698273,
+"y": 354.341736,
+"z": 131.410736
+},
+"position": {
+"x": -118.930908,
+"y": -37.20239,
+"z": 79.2711639
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 290.880737,
+"y": 357.869781,
+"z": 120.171021
+},
+"position": {
+"x": -128.313171,
+"y": -32.6589432,
+"z": 64.79726
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 292.0421,
+"y": 346.676361,
+"z": 122.439568
+},
+"position": {
+"x": -136.35466,
+"y": -30.2119064,
+"z": 47.9649048
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 284.678375,
+"y": 275.624329,
+"z": 189.166122
+},
+"position": {
+"x": -138.846451,
+"y": -35.2385864,
+"z": 35.9220428
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 295.6132,
+"y": 240.72876,
+"z": 217.391022
+},
+"position": {
+"x": -138.127945,
+"y": -45.8256035,
+"z": 25.0385132
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 338.087555,
+"y": 199.7059,
+"z": 247.365662
+},
+"position": {
+"x": -133.306335,
+"y": -58.6049,
+"z": 24.9716949
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 4.02062225,
+"y": 194.176559,
+"z": 242.631317
+},
+"position": {
+"x": -127.453186,
+"y": -65.92741,
+"z": 34.97856
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 7.15387344,
+"y": 197.781723,
+"z": 241.4595
+},
+"position": {
+"x": -120.298874,
+"y": -72.54341,
+"z": 45.8076324
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 9.433917,
+"y": 204.365524,
+"z": 237.0956
+},
+"position": {
+"x": -111.611115,
+"y": -78.32498,
+"z": 57.09117
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 334.0699,
+"y": 224.570313,
+"z": 226.685822
+},
+"position": {
+"x": -102.698387,
+"y": -85.34176,
+"z": 63.33516
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 313.399841,
+"y": 317.9196,
+"z": 159.594254
+},
+"position": {
+"x": -95.6144943,
+"y": -95.95361,
+"z": 58.920578
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 318.3295,
+"y": 282.809753,
+"z": 193.134674
+},
+"position": {
+"x": -86.7658539,
+"y": -106.027809,
+"z": 54.79248
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 338.544373,
+"y": 244.30423,
+"z": 211.85289
+},
+"position": {
+"x": -74.7133255,
+"y": -116.559181,
+"z": 51.31639
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 357.74646,
+"y": 219.605911,
+"z": 208.519287
+},
+"position": {
+"x": -60.5848961,
+"y": -127.660858,
+"z": 42.9696045
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 22.8817768,
+"y": 156.366653,
+"z": 189.238739
+},
+"position": {
+"x": -46.0967331,
+"y": -134.677414,
+"z": 39.1341858
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 22.7221718,
+"y": 175.911255,
+"z": 191.417267
+},
+"position": {
+"x": -31.0761852,
+"y": -135.308472,
+"z": 50.3198547
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 19.0720787,
+"y": 207.358154,
+"z": 192.8902
+},
+"position": {
+"x": -13.5148811,
+"y": -135.460876,
+"z": 56.86673
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 29.23937,
+"y": 175.6612,
+"z": 181.531326
+},
+"position": {
+"x": -8.88987,
+"y": -127.670029,
+"z": 73.51497
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 35.218483,
+"y": 185.157028,
+"z": 180.912048
+},
+"position": {
+"x": -1.08900833,
+"y": -119.46978,
+"z": 86.84755
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 14.3711672,
+"y": 100.722321,
+"z": 139.181732
+},
+"position": {
+"x": -10.9000416,
+"y": -110.059616,
+"z": 97.70924
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 11.011734,
+"y": 88.1437149,
+"z": 134.296814
+},
+"position": {
+"x": -19.8274765,
+"y": -99.19763,
+"z": 107.4388
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.621552,
+"y": 64.08662,
+"z": 129.166351
+},
+"position": {
+"x": -30.9567242,
+"y": -91.7233658,
+"z": 111.396576
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 341.958984,
+"y": 52.796875,
+"z": 130.4065
+},
+"position": {
+"x": -46.98136,
+"y": -90.9304657,
+"z": 106.223083
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 355.957275,
+"y": 55.7964745,
+"z": 127.254349
+},
+"position": {
+"x": -63.37966,
+"y": -87.96909,
+"z": 100.212509
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 26.4948883,
+"y": 70.7972946,
+"z": 128.213074
+},
+"position": {
+"x": -78.9401855,
+"y": -79.83763,
+"z": 95.9024658
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 20.953928,
+"y": 55.0870323,
+"z": 118.322075
+},
+"position": {
+"x": -91.06133,
+"y": -72.08962,
+"z": 91.42375
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 18.7778034,
+"y": 51.278347,
+"z": 116.870453
+},
+"position": {
+"x": -104.020927,
+"y": -62.2993622,
+"z": 84.49376
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 19.1415024,
+"y": 39.33444,
+"z": 112.549828
+},
+"position": {
+"x": -115.838,
+"y": -52.10389,
+"z": 75.4841461
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 1.86674,
+"y": 27.3534184,
+"z": 106.057709
+},
+"position": {
+"x": -125.567909,
+"y": -46.1519127,
+"z": 62.68225
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 300.544983,
+"y": 336.049927,
+"z": 133.962051
+},
+"position": {
+"x": -133.841232,
+"y": -48.89516,
+"z": 38.8113556
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 315.895844,
+"y": 225.548965,
+"z": 238.689
+},
+"position": {
+"x": -125.367653,
+"y": -57.084465,
+"z": 53.26857
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 332.5147,
+"y": 223.2584,
+"z": 241.609253
+},
+"position": {
+"x": -114.967064,
+"y": -65.12213,
+"z": 65.98691
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 328.692352,
+"y": 234.263458,
+"z": 234.5043
+},
+"position": {
+"x": -104.744934,
+"y": -75.29487,
+"z": 72.08345
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 324.942535,
+"y": 253.656921,
+"z": 223.522049
+},
+"position": {
+"x": -94.0242844,
+"y": -84.4249344,
+"z": 76.7611542
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 318.027649,
+"y": 345.430847,
+"z": 153.344559
+},
+"position": {
+"x": -86.85016,
+"y": -97.0645142,
+"z": 69.5571747
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 320.524567,
+"y": 282.681763,
+"z": 202.155121
+},
+"position": {
+"x": -73.89649,
+"y": -106.980896,
+"z": 69.98302
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 326.992767,
+"y": 287.8808,
+"z": 197.014282
+},
+"position": {
+"x": -57.8318367,
+"y": -120.886871,
+"z": 61.8379364
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 345.282349,
+"y": 260.635559,
+"z": 208.415039
+},
+"position": {
+"x": -41.6984253,
+"y": -125.853,
+"z": 64.9757843
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 14.6691055,
+"y": 226.684326,
+"z": 210.56134
+},
+"position": {
+"x": -29.8668442,
+"y": -124.529808,
+"z": 73.3877258
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 15.4572544,
+"y": 236.7308,
+"z": 215.022781
+},
+"position": {
+"x": -20.8958855,
+"y": -119.687263,
+"z": 83.967514
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 28.3246613,
+"y": 117.252655,
+"z": 153.641571
+},
+"position": {
+"x": -30.8582039,
+"y": -114.209747,
+"z": 88.476
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 25.00485,
+"y": 92.41403,
+"z": 144.487045
+},
+"position": {
+"x": -45.1871834,
+"y": -110.129486,
+"z": 87.2196655
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 23.1229439,
+"y": 80.4518051,
+"z": 138.588959
+},
+"position": {
+"x": -58.5495262,
+"y": -100.896461,
+"z": 90.44563
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 12.7266426,
+"y": 59.7552757,
+"z": 129.69986
+},
+"position": {
+"x": -72.22068,
+"y": -94.27664,
+"z": 87.8060455
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 2.3129375,
+"y": 268.233521,
+"z": 96.20369
+},
+"position": {
+"x": 8.497173,
+"y": -20.004879,
+"z": -145.96579
+}
+},
+{
+"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root", "parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+"rotation": {
+"x": 64.70442,
+"y": 319.504944,
+"z": 135.274292
+},
+"position": {
+"x": -19.6971226,
+"y": -39.1653481,
+"z": -140.996658
+}
+}
+		],
+		"translatorText":[
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": 85.21177, "y": 70.13512, "z": -85.26199},
+				"rotation": {"x": 315.0309, "y": 312.3378, "z": 1.882125},
+				"xmlFile": "planets/Text/EscapePodComputer.xml",
+				"type": "preCrashComputer",
+				"alignRadial": false
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": 48.06678, "y": 51.42143, "z": -111.5608},
+				"xmlFile": "planets/Text/EscapePodRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": 66.46073, "y": 61.54495, "z": -99.43739},
+				"xmlFile": "planets/Text/MissingRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": 90.42336, "y": -1.034361, "z": 90.78445},
+				"xmlFile": "planets/Text/RiverRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": -116.7001, "y": -35.33621, "z": -50.18813},
+				"xmlFile": "planets/Text/PinkNodeRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": -31.4178, "y": 119.485, "z": 80.90688},
+				"xmlFile": "planets/Text/BlueNodeRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Grass/TesseractOuterPlanetv2",
+				"position": {"x": 87.60617, "y": -51.04146, "z": 107.1632},
+				"xmlFile": "planets/Text/MonolithRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Desert/TesseractDesertPlanetv2",
+				"position": {"x": 66.32404, "y": 75.61265, "z": 84.33813},
+				"xmlFile": "planets/Text/DesertRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			},
+			{
+				"parentPath": "Sector/OuterPlanet_Desert/TesseractDesertPlanetv2",
+				"position": {"x": 86.08604, "y": -56.39056, "z": 105.8396},
+				"xmlFile": "planets/Text/YellowNodeRecorder.xml",
+				"type": "preCrashRecorder",
+				"alignRadial": true
+			}
+		],
+		"entryLocation":[
+			{
+				"position": {"x": 0, "y": 0, "z": 0},
+				"id": "TESSERACT_PLANET"
+			},
+			{
+				"position": {"x": -36.58, "y": 129.45, "z": 68.01},
+				"id": "BLUENODE"
+			},
+			{
+				"position": {"x": -119.5, "y": -25.03, "z": -58.05},
+				"id": "PINKNODE"
+			},
+			{
+				"position": {"x": 97.06, "y": -60.32, "z": 98.56},
+				"id": "MONOLITH"
+			}
+		]
+	},
+	"Water": {
+		"size": 127,
+		"density": 30.0,
+		"buoyancy": 0.9
+	},
+	"Sand": {
+		"size": 128
+	},
+	"Volumes": {
+		"revealVolumes" :
+		[
+			{
+				"radius": 350,
+				"position": {"x": 0, "y": 0, "z": 0},
+				"revealFor": "player",
+				"reveals": [
+					"TESSERACT_DISCOVERY"
+				]
+			}
+		],
+		"audioVolumes" :
+		[
+			{
+				{
+				"audio": "1807",
+				"clipSelection": "random",
+				"track": "environmentUnfiltered",
+				"volume": 0.4,
+				"priority": 0,
+				"position": {},
+				"radius": 500.0
+			}
+		]
+	},
+	"Cloak": {
+		"radius": 4000,
+		"audio": 2805
+	},
+	"ReferenceFrame": {
+		"enabled": true
+	},
+	"ShipLog" : {
+		"xmlFile": "planets/ShipLogs/Tesseract.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"invisibleWhenHidden": true,
+			"revealedSprite": "planets/ShipLogs/sprites/tesseract_map_mode.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 400,
+				"y": 400
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 4
+			}
+		}
+    },
+	"ShockEffect": {}
+}

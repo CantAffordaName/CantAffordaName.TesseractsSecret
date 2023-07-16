@@ -1,0 +1,6 @@
+{
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"UIDictionary": {
+		"TESSERACT_POPUP": "Thanks for installing Tesseract's Secret! Check your ship's log to begin!"
+	}
+}

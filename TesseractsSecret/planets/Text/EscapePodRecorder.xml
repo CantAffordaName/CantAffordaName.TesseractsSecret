@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: Is everyone okay? I didn't expect that we'd crash into a rogue planet... though with the stars becoming increasingly unstable, we should've expected something like this would eventually happen.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: Everyone's a little shaken, but fine. Of all the places to end up, this planet seems like it has the resources to keep us alive until we can contact the other <![CDATA[<color=orange>Escape Pods</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: There may be one slight issue with contacting the others...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Kestrel: And what might that be, Lotus?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Lotus: Our <![CDATA[<color=orange>Distress Beacon</color>]]> was damaged in the crash. The others won't be able to track us down without it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Solara: Not to worry, Lotus. During our <![CDATA[<color=orange>Escape Pod's</color>]]> launch from the <![CDATA[<color=orange>Vessel</color>]]>, it seemed that the first and third pods were on course to end up relatively close to each other.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>8</ParentID>
+		<Text>Lotus: While it's reassuring to know that the others are likely safe and reunited, what does that mean for us?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>9</ParentID>
+		<Text>Solara: It means we can use what's left of our <![CDATA[<color=orange>Distress Beacon</color>]]> and hijack the frequencies from the other pods to point straight to us!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>Kestrel: And we can all rest assured that eventually we'll be found by the others, or perhaps even by another <![CDATA[<color=orange>Clan</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>Kestrel: While you're doing that, Solara, the rest of us will have a look around.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>ESCAPEPOD_RECORDER</FactID>
+	      	<Condition>10</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

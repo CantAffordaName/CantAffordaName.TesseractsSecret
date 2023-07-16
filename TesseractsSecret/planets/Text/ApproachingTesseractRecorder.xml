@@ -1,0 +1,79 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: We're heading straight for the heart of the <![CDATA[<color=orange>tesseract</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Lotus: Uh... Should we risk it? I know we were searching for stuff while awaiting rescue, but we need to actually be on the "visible" part of the planet when help arrives.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Solara: I think so too... But at the same time, I am curious as to what this could be.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Kestrel: Maybe. Actually, hold on. Do you notice anything... weird going on?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Lotus: No, not that I can tell.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Lotus: <![CDATA[<i>No, not that I can tell</i>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Lotus: Okay, I see -- er, hear what you mean.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Solara: Is it actually having an effect on time? What do you suppose it means?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>Kestrel: ...What if the life forms who built all this mastered folding space-time? Perhaps as a method to travel around the universe in the blink of an eye?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>Solara: If it really <![CDATA[<i>is</i>]]> folding space-time, would we be able to use it? We wouldn't have to await rescue. And think of the possibilities if we show this at the next <![CDATA[<color=orange>festival</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>Lotus: I suppose the only way to know for sure... would be to test it. But we can't know how much time will pass if we go through. Not that we'll age because it'll seem instantaneous to us.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>Kestrel: Anyone who follows the signal hijacker is sure to end up where we are now, and will no doubt want to learn about this discovery too. I say we head in.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>Solara: Me too!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>Lotus: ...Alright. I hope this doesn't take ten years (or a morbillion years)!</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>APPROACHINGTESSERACT_RECORDER</FactID>
+	      	<Condition>14</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

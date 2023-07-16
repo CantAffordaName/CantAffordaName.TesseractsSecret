@@ -1,0 +1,172 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TESSERACT</ID>
+
+    <Entry>
+        <ID>TESSERACT_PLANET</ID>
+        <Name>Tesseract</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+		<IsCuriosity/>
+
+        <ExploreFact>
+            <ID>TESSERACT_DISCOVERY</ID>
+            <Text>A strange planet that was invisible. There's a cube structure surrounding it.</Text> 
+        </ExploreFact>
+    </Entry>
+
+	<Entry>
+        <ID>ESCAPEPOD_TWO</ID>
+        <Name>Escape Pod... 2?</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>ESCAPEPOD_RUMOR</ID>
+			<SourceID>TESSERACT_PLANET</SourceID>
+            <RumorName>Escape Pod</RumorName>
+            <Text>The "broken" signals lead me to another escape pod.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>ESCAPEPOD_EXPLORE</ID>
+            <Text>This appears to be an escape pod from another Nomai Clan. They crashed into a rogue planet and were forced to evacuate.</Text> 
+        </ExploreFact>
+		<ExploreFact>
+            <ID>ESCAPEPOD_RECORDER</ID>
+            <Text>After surviving the crash, the Nomai noticed their Distress Beacon was damaged. A Nomai named Solara came up with an idea to hijack the signals from the other escape pods since pods 1 and 3 were relatively close to each other.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>BLUENODE</ID>
+        <Name>Blue Structure</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>BLUENODE_RECORDER</ID>
+            <Text>The nomai were perplexed by this sealed structure. According to them, there appear to be more like it.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>PINKNODE</ID>
+        <Name>Pink Structure</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>PINKNODE_RECORDER</ID>
+            <Text>According to the Nomai, there are more structures like this. There doesn't appear to be a way in.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>YELLOWNODE</ID>
+        <Name>Yellow Structure</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>YELLOWNODE_RECORDER</ID>
+            <Text>The Nomai noticed that this structure remained sealed after the others were opened. It can't be accessed from here.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>MONOLITH</ID>
+        <Name>Monolith</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>MONOLITH_RECORDER</ID>
+            <Text>A Nomai named Lotus was observing this structure when something below caught their eye. There doesn't appear to be any way to interact with it from here.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>MISSING</ID>
+        <Name>Missing Nomai</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>MISSING_RECORDER</ID>
+            <Text>After checking on Solara's progress, the cube structure above Tesseract appeared out of nowhere. Kestrel and Solara went to look for Lotus.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>RIVER</ID>
+        <Name>The River</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>RIVER_RECORDER</ID>
+            <Text>Kestrel says that Lotus possibly searched the rivers after they split up. Solara notes that since they already checked out the island that Lotus likely is searching smaller rivers. Kestrel had a feeling that Lotus somehow occupied the same space as them.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>FIRSTINTERIOR</ID>
+        <Name>Tesseract Interface</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>FIRSTINTERIOR_RECORDER</ID>
+            <Text>Lotus discovered a structure that lead to a tesseract. It could be changed back and forth between two states. The gravity makes it highly dangerous to attempt jumping off the platform.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>DESERT</ID>
+        <Name>Tesseract Two</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>DESERT_RECORDER</ID>
+            <Text>Kestrel, Solara, and Lotus reunited. Lotus concluded that messing with the tesseract flipped the outside of the planet through the 4th dimension.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>INSTRUCTION</ID>
+        <Name>Instructions</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>INSTRUCTION_RECORDER</ID>
+            <Text>A series of drawings. The Nomai concluded that it was a set of instructions. It shows someone moving around the perimeter of a circle, switching the tesseract to blue, and approaching the monolith.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>MINIMAP</ID>
+        <Name>Mini Map</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>MINIMAP_RECORDER</ID>
+            <Text>A model of the planet. It's pointing straight at the North Pole. Lotus says that there's nothing there.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+	<Entry>
+        <ID>APPROACHINGTESSERACT</ID>
+        <Name>Space-Time Fold</Name>
+
+        <Curiosity>TESSERACT_CURIOSITY</Curiosity>
+
+        <ExploreFact>
+            <ID>APPROACHINGTESSERACT_RECORDER</ID>
+            <Text>The Nomai believed that the creators of the tesseract ultimately tried to create a space-time fold to cross enourmous distances across the universe.</Text> 
+        </ExploreFact>
+    </Entry>
+	
+</AstroObjectEntry>

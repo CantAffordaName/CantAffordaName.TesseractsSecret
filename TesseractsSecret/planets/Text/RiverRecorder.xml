@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: This is where I last saw Lotus before I headed back to the <![CDATA[<color=orange>Escape Pod</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: Where did you two go before you parted ways?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Kestrel: We had found two structures, one on a small island and one amongst the cliffs. The gigantic cube structure above us wasn't there until I came to check on the signal hijacker.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Kestrel: ...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Solara: What is it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Kestrel: I just had the strangest feeling. As if somehow, Lotus was standing right here. Not next to us, but exactly where we're standing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Solara: ...You're not going crazy, are you? Is the air here making you go crazy?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>6</ParentID>
+		<Text>Kestrel: Hopefully not. But anyways, I know the only places we -- or at least before spliting up, I haven't checked the rivers.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>Solara: If you've already checked out the island, I guess that only leaves the smaller rivers.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>RIVER_RECORDER</FactID>
+	      	<Condition>9</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

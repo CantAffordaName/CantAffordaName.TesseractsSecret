@@ -1,0 +1,29 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BEGIN FLIGHTLOG: <![CDATA[<color=orange>Escape Pod 2</color>]]>. <![CDATA[<color=orange>Vessel</color>]]> has been mortally damaged. Prepping escape pods 1, 2, and 3 for departure from <![CDATA[<color=orange>Vessel</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Launching <![CDATA[<color=lightblue>Escape Pod 1</color>]]>... Launching <![CDATA[<color=orange>Escape Pod 2</color>]]>... Launching <![CDATA[<color=lightblue>Escape Pod 3</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>ALERT: Collision with unknown astral body imminent. Brace for impact.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Scanning local environment... scan complete. Breathable atmosphere detected. Water source detected. Detecting inorganic structure. <![CDATA[<i>Verdict: Hospitable</i>]]>.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>ESCAPEPOD_EXPLORE</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

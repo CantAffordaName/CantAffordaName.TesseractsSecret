@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: How's the signal hijacker coming along, Solara?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: So far, so good. Most of our original <![CDATA[<color=orange>Distress Beacon</color>]]> was salvagable, so we should be okay once it's up and running.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Solara: One small problem is that it'll only affect signals coming from a certain direction, but we can manually rotate the signal around for a "radar" like effect. Should help the others track us down.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Kestrel: Excellent. Lotus and I have thoroughly searched the planet, and while there were signs that intelligent life had previously been here, it doesn't seem like they're here anymore.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Solara: Actually, where is Lotus?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Kestrel: I left Lotus to come and check on your progress. He's still looking over the structures we found.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Solara: Do you think it was a good idea to leave him out there alone?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Kestrel: This planet is small, he'll come around eventually.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>Solara: Shouldn't risk it. Here, the signal hijacker is in a usable state. I'll leave it here and we'll look for Lotus.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>Solara: Hang on, what's that huge structure in the sky? That wasn't there before!</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>MISSING_RECORDER</FactID>
+	      	<Condition>10</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

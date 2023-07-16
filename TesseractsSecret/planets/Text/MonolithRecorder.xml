@@ -1,0 +1,29 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Lotus: Now this is something! ...Or on closer inspection, it's more dissapointing than the other objects I've seen around here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Lotus: Surely this confirms that nothing actually lives here, this structure in particular seems to only serve an aesthetic purpose.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: Maybe this is equivalent to planting a flag? Plenty of other space-faring species have done the same on far less hospitable planets.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Lotus: Then again, building a whole <![CDATA[<color=orange>monolith</color>]]> is more involved than planting a flag -- hold on, what's that down there?</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>MONOLITH_RECORDER</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

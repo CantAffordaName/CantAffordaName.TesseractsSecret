@@ -1,0 +1,70 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Hornfels</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, look at this - the statue opened its eyes! Bet you wish you’d seen that happen, huh? <![CDATA[<color=lightblue>Sigh...</color>]]> Me, too. I’m not even a little closer to understanding what’s going on with this statue.</Page>
+			<Page>Was there something you needed?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I recalled that you wanted to tell me something about my Signal Scope before I launched into space.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No thanks, I'm good.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Oh, yes that's right! Of course, here's the launch codes. And I'll take a quick peek at your Signal Scope.</Page>
+			<Page>...</Page>
+			<Page>Hmm...</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Everything seems to be in order. Your Signal Scope is in good condition.</Page>
+			<Page>Although recently I've been hearing that some frequencies are acting a little strange.</Page>
+			<Page>Shouldn't be a problem for you or any frequencies that we use, like the Deep Space frequency or the ones the Travelers use. Not even the weird frequency coming from the rock we've got on display here.</Page>
+			<Page>But if you find any other frequencies, like from the Nomai for instance, can you do me a favor and check out the Quantum Grove Crater? Supposedly it's causing Signal Scopes to incorrectly detect frequencies.</Page>
+			<Page>And if yours breaks, I'll fix it right up for you! It only takes 30 minutes, so it shouldn't be a problem.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'll check out the crater.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
+		<RevealFacts>
+			<FactID>HORNFELS_SIGNAL_SCOPE</FactID>
+			<FactID>SIGNAL_SCOPE_RUMOR</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Alright. Take care out there!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

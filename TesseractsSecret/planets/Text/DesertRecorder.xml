@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: Lotus! There you are!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: We're quite fortunate to have found you! Next time you find something, please, please, <![CDATA[<i>please</i>]]> come back and tell someone about where you plan to go.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: I mean, Kestrel told me to --</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Kestrel: Anyways, what exactly is this place? Did we get transported to another planet?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Lotus: Not exactly. It seems that whatever life forms that were here before us were able to find a way to manipulate the <![CDATA[<color=orange>4th Dimension</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Kestrel: That's time, right? So are we actually on the same planet in the future?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Solara: No, that's a common misconception. I suppose the tesseract on the interior caused this? As well as making the giant structure above us appear?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Lotus: That's the theory I'm going with, but I have yet to fully explore this "side" of the planet.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>DESERT_RECORDER</FactID>
+	      	<Condition>8</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Kestrel: A series of drawings!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Solara: You know, for life forms that can use the <![CDATA[<color=orange>4th Dimension</color>]]>, they do seem to lack artistic talent.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: Like you could do better!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Solara: I can! ...Not that this makes this discovery bad or anything.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Kestrel: Regardless, it seems like they're stringed together to form instructions.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Lotus: I get the tesseract, but what's the circle? Like moving around in a circle?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Solara: Perhaps it means moving around the perimeter of something.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Lotus: Looks like it might have some sort of effect on that <![CDATA[<color=orange>monolith</color>]]> I found before winding up here.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>INSTRUCTION_RECORDER</FactID>
+	      	<Condition>8</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

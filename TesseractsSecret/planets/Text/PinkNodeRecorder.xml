@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Lotus: Another one of these. Outwardly it looks the same, but with a different colored seal.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Lotus: Perhaps there are no intelligent life forms living on this planet. I mean, surely I or anyone else would have run into them.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Lotus: Maybe these were left behind? I can't know for sure, but I can at least check out the others.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>PINKNODE_RECORDER</FactID>
+	      	<Condition>3</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

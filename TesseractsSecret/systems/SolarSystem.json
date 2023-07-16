@@ -1,0 +1,130 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"entryPositions": [
+		{
+			"id": "HORNFELS_OBSERVATION",
+			"position": {
+				"x": 1399,
+				"y": 1100
+			}
+		},
+		{
+			"id": "SIGNAL_SCOPE_ODDITY",
+			"position": {
+				"x": 1710,
+				"y": 1500
+			}
+		},
+		{
+			"id": "TESSERACT_PLANET",
+			"position": {
+				"x": 1710,
+				"y": 1721
+			}
+		},
+		{
+			"id": "ESCAPEPOD_TWO",
+			"position": {
+				"x": 1710,
+				"y": 1983
+			}
+		},
+		{
+			"id": "BLUENODE",
+			"position": {
+				"x": 1932,
+				"y": 1722
+			}
+		},
+		{
+			"id": "PINKNODE",
+			"position": {
+				"x": 2057,
+				"y": 1722
+			}
+		},
+		{
+			"id": "MONOLITH",
+			"position": {
+				"x": 2182,
+				"y": 1722
+			}
+		},
+		{
+			"id": "MISSING",
+			"position": {
+				"x": 2057,
+				"y": 1882
+			}
+		},
+		{
+			"id": "RIVER",
+			"position": {
+				"x": 2057,
+				"y": 2037
+			}
+		},
+		{
+			"id": "FIRSTINTERIOR",
+			"position": {
+				"x": 2182,
+				"y": 2037
+			}
+		},
+		{
+			"id": "DESERT",
+			"position": {
+				"x": 2307,
+				"y": 2037
+			}
+		},
+		{
+			"id": "YELLOWNODE",
+			"position": {
+				"x": 2182,
+				"y": 1882
+			}
+		},
+		{
+			"id": "MINIMAP",
+			"position": {
+				"x": 2307,
+				"y": 1882
+			}
+		},
+		{
+			"id": "INSTRUCTION",
+			"position": {
+				"x": 2307,
+				"y": 1722
+			}
+		},
+		{
+			"id": "APPROACHINGTESSERACT",
+			"position": {
+				"x": 2627,
+				"y": 1882
+			}
+		}
+	],
+	"curiosities": [
+		{
+			"id": "TESSERACT_CURIOSITY",
+			"color": {
+				"r": 200,
+				"g": 255,
+				"b": 255,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 230,
+				"g": 255,
+				"b": 255,
+				"a": 255
+			}
+		}
+	],
+	"initialReveal": [
+		"REMINDER_RUMOR"
+	]
+}

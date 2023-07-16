@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json"
+	"credits": [
+    "Can't Afford a Name#Mod Author",
+    "Xen#Made cloak volumes work after seventy years (It took 2 seconds)",
+    "John Corby#Technically exists",
+	" ",
+	"And various other members of the Outer Wilds Modding Discord",
+    " ",
+    "Music#Lightless Dawn\n#Kevin MacLeod (incompetech.com)\n#Licensed under Creative Commons: By Attribution 4.0 License\n#CrypticBird\n#http://creativecommons.org/licenses/by/4.0/"
+  ],
+  "popupMessage": "Thanks for downloading Tesseract's Secret!\nCheck your ship log to begin!"
+}
