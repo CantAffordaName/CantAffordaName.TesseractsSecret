@@ -4,7 +4,7 @@
   "author": "Can't Afford a Name",
   "name": "Tesseract's Secret",
   "uniqueName": "CantAffordaName.TesseractsSecret",
-  "version": "0.1.0",
-  "owmlVersion": "2.9.0",
+  "version": "1.0.4",
+  "owmlVersion": "2.15.4",
   "dependencies": ["xen.NewHorizons"]
 }
