@@ -1,0 +1,197 @@
+{
+//该翻译补丁经检查没有任何问题。
+  "UIDictionary": {
+    "Timber Hearth": "木炉星",
+    "InteriorDimension": "内部维度",
+    "Tesseract": "超立方体",
+    "Thanks for downloading Tesseract's Secret!\nCheck your ship log to begin!": "感谢您下载《超立方体的秘密》！检查飞船日志以开始！"
+  },
+
+  "DialogueDictionary": {
+    //CloneHornfels.xml
+    "Hornfels": "霍恩费斯",
+    "Hey, look at this - the statue opened its eyes! Bet you wish you’d seen that happen, huh? <![CDATA[<color=lightblue>Sigh...</color>]]> Me, too. I’m not even a little closer to understanding what’s going on with this statue.": "嘿，快看这个——雕像睁开眼睛了！真希望你也看到了，是吧？<![CDATA[<color=lightblue>唉……</color>]]>我也是。我还是一点都搞不懂这雕像到底怎么回事。",
+    "Was there something you needed?": "你有什么事吗？",
+    "Oh, yes that's right! Of course, here's the launch codes. And I'll take a quick peek at your Signal Scope.": "哦，对了！没问题，这是发射密码。我再快速检查下你的信号镜。",
+    "...": "……",
+    "Hmm...": "嗯……",
+    "Everything seems to be in order. Your Signal Scope is in good condition.": "一切正常。你的信号镜状态良好。",
+    "Although recently I've been hearing that some frequencies are acting a little strange.": "不过最近我听说有些频率有点异常。",
+    "Shouldn't be a problem for you or any frequencies that we use, like the Deep Space frequency or the ones the Travelers use. Not even the weird frequency coming from the rock we've got on display here.": "不过这对你或我们常用的频率应该没影响，比如深空无线电频率或旅行者们用的那些。就连我们这儿展示的那块石头发出的奇怪频率也没事。",
+    "But if you find any other frequencies, like from the Nomai for instance, can you do me a favor and check out the Quantum Grove Crater? Supposedly it's causing Signal Scopes to incorrectly detect frequencies.": "但如果你发现其他频率，比如挪麦人的，能帮我个忙去检查下量子树林陨石坑吗？据说那里会导致信号镜地错误检测频率。",
+    "And if yours breaks, I'll fix it right up for you! It only takes 30 minutes, so it shouldn't be a problem.": "要是你的信号镜坏了，我会马上帮你修好！只要30分钟，不会有问题的。",
+    "Alright. Take care out there!": "好了。在外注意安全！",
+    "I recalled that you wanted to tell me something about my Signal Scope before I launched into space.": "我记得你在我升空之前，想跟我说关于我信号镜的事。",
+    "No thanks, I'm good.": "不用了，谢谢，我没事。",
+    "What is it?": "怎么了？",
+    "I'll check out the crater.": "我会去检查那个陨石坑的。",
+
+    //JohnnyTesseract.xml
+    "Johnny Tesseract": "约翰尼·超立方体",
+    "Well done! You found my secret.": "干得好！你找到我的秘密了。",
+    "Yup. You won. You had a very large brain and solved puzzles.": "没错，你赢了。你太聪明了，解开了谜题。",
+    "Smarter than me. This is what two weeks of this stuff'll do to ya.": "比我还聪明。这两周琢磨这些玩意儿，我人都快傻了。",
+    "Pretend there's a credit screen rollin' along here.": "就当这里正在播放片尾致谢画面吧。",
+    "Now pretend you mashed the skip key twenty thousand times.": "现在想象你狂按了两万次跳过键。",
+    "Ok - hay Buh - Buy": "好了——就这样吧——再见",
+    "...Was that it?": "……就这样结束了？",
+    "Well, I AM pretty smart.": "哼，我确实挺聪明的。",
+    "Better luck next time.": "下次好运吧。",
+
+    "Lotus: Now this is really something! For real, this time!": "洛特斯：现在这才叫发现嘛！这次是真的！",
+    "Lotus: I'm still not sure where any actual life forms are, but whoever or whatever they are have managed to build some sort of <![CDATA[<color=orange>tesseract</color>]]>!": "洛特斯：我还是不确定那些智慧生物在哪里，但是无论他们是谁或是什么，他们都设法建造了某种<![CDATA[<color=orange>超立方体</color>]]>！",
+    "Lotus: I can change it back and forth between two states. But is that really all there is to it?": "洛特斯：我可以让它在两种形态中切换，但这里真的只有这个吗？",
+    "Lotus: ...And I'd better watch my step. It seems as though the gravity around the <![CDATA[<color=orange>tesseract</color>]]> is <![CDATA[<i>unbelievably</i>]]> strong and could tear me apart. Or crush me. Or do other unpleasant things.": "洛特斯：……并且我最好注意脚下。这里围绕<![CDATA[<color=orange>超立方体</color>]]>的引力似乎<![CDATA[<i>不可置信地</i>]]>强大到可以把我撕碎。或者压扁我。或者做其他不令人愉快的事情。",
+
+    //ApproachingTesseractRecorder.xml
+    "Kestrel: We're heading straight for the heart of the <![CDATA[<color=orange>tesseract</color>]]>!": "凯斯特尔：我们要朝着<![CDATA[<color=orange>超立方体</color>]]>的核心飞去！",
+    "Lotus: Uh... Should we risk it? I know we were searching for stuff while awaiting rescue, but we need to actually be on the \"visible\" part of the planet when help arrives.": "洛特斯：呃……我们要冒这个险吗？我知道我们在等待救援时一直在搜寻东西，但救援到来时，我们得在这颗星球“可见”的区域才行啊。",
+    "Solara: I think so too... But at the same time, I am curious as to what this could be.": "索拉拉：我也这么觉得……但同时，我真的很好奇这到底是什么。",
+    "Kestrel: Maybe. Actually, hold on. Do you notice anything... weird going on?": "凯斯特尔：或许吧。等等，你有没有发现什么……奇怪的事？",
+    "Lotus: No, not that I can tell.": "洛特斯：没，我没发现。",
+    "Lotus: <![CDATA[<i>No, not that I can tell</i>]]>.": "洛特斯：<![CDATA[<i>没，我没发现</i>]]>。",
+    "Lotus: Okay, I see -- er, hear what you mean.": "洛特斯：好吧，我明白——呃，懂你的意思了。",
+    "Solara: Is it actually having an effect on time? What do you suppose it means?": "索拉拉：它真的在影响时间吗？你觉得这意味着什么？",
+    "Kestrel: ...What if the life forms who built all this mastered folding space-time? Perhaps as a method to travel around the universe in the blink of an eye?": "凯斯特尔：……要是建造这一切的生命掌握了时空折叠技术呢？也许这是一种能让他们瞬间穿越宇宙的方法？",
+    "Solara: If it really <![CDATA[<i>is</i>]]> folding space-time, would we be able to use it? We wouldn't have to await rescue. And think of the possibilities if we show this at the next <![CDATA[<color=orange>festival</color>]]>!": "索拉拉：如果这真的<![CDATA[<i>能</i>]]>折叠时空，我们能用上它吗？那样就不用等救援了。想想看，如果在下次<![CDATA[<color=orange>发现节</color>]]>上展示这个，会有多少可能！",
+    "Lotus: I suppose the only way to know for sure... would be to test it. But we can't know how much time will pass if we go through. Not that we'll age because it'll seem instantaneous to us.": "洛特斯：我想唯一能确定的方法……就是去试试。但我们不知道穿过去后会经过多少时间。不过对我们来说可能只是一瞬间，所以也不会变老。",
+    "Kestrel: Anyone who follows the signal hijacker is sure to end up where we are now, and will no doubt want to learn about this discovery too. I say we head in.": "凯斯特尔：任何跟着信号劫持器来的人，肯定会来到我们现在的位置，而且他们肯定也想了解这个发现。我觉得我们该进去。",
+    "Solara: Me too!": "索拉拉：我也同意！",
+    "Lotus: ...Alright. I hope this doesn't take ten years (or a morbillion years)!": "洛特斯：……好吧。希望这不会花上十年（或者十亿年）！",
+
+    //BlueNodeRecorder.xml
+    "Lotus: What are these supposed to be?": "洛特斯：这些东西到底是干嘛的？",
+    "Kestrel: Can't say for sure. This one is sealed, too.": "凯斯特尔：不好说。这个也是密封的。",
+    "Lotus: Why isn't there any signs of intelligent life other than these? You'd think they'd have some form of shelter, or anything at all?": "洛特斯：除了这些，怎么就没有其他智慧生命的迹象呢？按理说他们总该有住所之类的吧？",
+    "Kestrel: Surely there's something else. I'll check on Solara's progress with the signal hijacker, you should continue to investigate the rest of these.": "凯斯特尔：肯定还有别的。我去看看索拉拉的信号劫持器进展如何，你继续调查剩下的这些。",
+
+    //DesertRecorder.xml
+    "Kestrel: Lotus! There you are!": "凯斯特尔：洛特斯！你在这儿！",
+    "Solara: We're quite fortunate to have found you! Next time you find something, please, please, <![CDATA[<i>please</i>]]> come back and tell someone about where you plan to go.": "索拉拉：能找到你真是太幸运了！下次你发现什么，求你了，求你<![CDATA[<i>求你了</i>]]>，回来告诉大家你打算去哪儿。",
+    "Lotus: I mean, Kestrel told me to --": "洛特斯：可凯斯特尔让我——",
+    "Kestrel: Anyways, what exactly is this place? Did we get transported to another planet?": "凯斯特尔：话说回来，这到底是什么地方？我们是被传送到另一颗星球了吗？",
+    "Lotus: Not exactly. It seems that whatever life forms that were here before us were able to find a way to manipulate the <![CDATA[<color=orange>4th Dimension</color>]]>.": "洛特斯：不全是。看来在我们之前来到这里的生命，找到了操控<![CDATA[<color=orange>第四维度</color>]]>的方法。",
+    "Kestrel: That's time, right? So are we actually on the same planet in the future?": "凯斯特尔：第四维度就是时间，对吧？那我们其实是在未来的同一颗星球上？",
+    "Solara: No, that's a common misconception. I suppose the tesseract on the interior caused this? As well as making the giant structure above us appear?": "索拉拉：不，这是常见的误解。我猜是内部的超立方体导致了这种情况？还有我们头顶上那个巨型结构也是它弄出来的？",
+    "Lotus: That's the theory I'm going with, but I have yet to fully explore this \"side\" of the planet.": "洛特斯：我也是这么推测的，但我还没完全探索这颗星球的“这一面”。",
+
+    //EscapePodComputer.xml
+    "BEGIN FLIGHTLOG: <![CDATA[<color=orange>Escape Pod 2</color>]]>. <![CDATA[<color=orange>Vessel</color>]]> has been mortally damaged. Prepping escape pods 1, 2, and 3 for departure from <![CDATA[<color=orange>Vessel</color>]]>.": "开始飞行日志：<![CDATA[<color=orange>2号逃生舱</color>]]>。<![CDATA[<color=orange>母船</color>]]>已严重受损。准备1号、2号、3号逃生舱脱离<![CDATA[<color=orange>母船</color>]]>。",
+    "Launching <![CDATA[<color=lightblue>Escape Pod 1</color>]]>... Launching <![CDATA[<color=orange>Escape Pod 2</color>]]>... Launching <![CDATA[<color=lightblue>Escape Pod 3</color>]]>.": "发射<![CDATA[<color=lightblue>1号逃生舱</color>]]>……发射<![CDATA[<color=orange>2号逃生舱</color>]]>……发射<![CDATA[<color=lightblue>3号逃生舱</color>]]>。",
+    "ALERT: Collision with unknown astral body imminent. Brace for impact.": "警报：即将与未知天体相撞。准备承受撞击。",
+    "Scanning local environment... scan complete. Breathable atmosphere detected. Water source detected. Detecting inorganic structure. <![CDATA[<i>Verdict: Hospitable</i>]]>.": "扫描当地环境……扫描完成。检测到可呼吸大气。检测到水源。检测到无机结构。<![CDATA[<i>结论：适宜居住</i>]]>。",
+
+    //MinimapRecorder.xml
+    "Solara: ...It's a miniture scale of the planet?": "索拉拉：……这是这颗星球的微缩模型？",
+    "Kestrel: Well, it's pointing north. Must have some significance.": "凯斯特尔：嗯，它指着北方。肯定有什么意义。",
+    "Lotus: I was up there before you two found me. It's just an empty crater.": "洛特斯：在你们找到我之前，我去过那里。那只是个空陨石坑。",
+    "Kestrel: ...": "凯斯特尔：……",
+    "Solara: ...": "索拉拉：……",
+    "Lotus: ...What?": "洛特斯：……怎么了？",
+
+    //EscapePodRecorder.xml
+    "Kestrel: Is everyone okay? I didn't expect that we'd crash into a rogue planet... though with the stars becoming increasingly unstable, we should've expected something like this would eventually happen.": "凯斯特尔：大家都还好吗？我没想到我们会撞上一颗流浪行星……不过随着恒星越来越不稳定，我们早该料到总会发生这种事的。",
+    "Solara: Everyone's a little shaken, but fine. Of all the places to end up, this planet seems like it has the resources to keep us alive until we can contact the other <![CDATA[<color=orange>Escape Pods</color>]]>.": "索拉拉：大家都有点受惊，但没事。在所有可能落脚的地方中，这颗星球似乎有足够的资源让我们活下去，直到联系上其他<![CDATA[<color=orange>逃生舱</color>]]>。",
+    "Lotus: There may be one slight issue with contacting the others...": "洛特斯：联系其他人可能有个小问题……",
+    "Kestrel: And what might that be, Lotus?": "凯斯特尔：什么问题，洛特斯？",
+    "Lotus: Our <![CDATA[<color=orange>Distress Beacon</color>]]> was damaged in the crash. The others won't be able to track us down without it.": "洛特斯：我们的<![CDATA[<color=orange>求救信标</color>]]>在撞击中损坏了。没有它，其他人找不到我们。",
+    "Solara: Not to worry, Lotus. During our <![CDATA[<color=orange>Escape Pod's</color>]]> launch from the <![CDATA[<color=orange>Vessel</color>]]>, it seemed that the first and third pods were on course to end up relatively close to each other.": "索拉拉：别担心，洛特斯。我们的<![CDATA[<color=orange>逃生舱</color>]]>从<![CDATA[<color=orange>母船</color>]]>发射时，1号和3号逃生舱的落点似乎离得比较近。",
+    "Lotus: While it's reassuring to know that the others are likely safe and reunited, what does that mean for us?": "洛特斯：知道其他人可能安全会合确实让人安心，但这对我们来说意味着什么呢？",
+    "Solara: It means we can use what's left of our <![CDATA[<color=orange>Distress Beacon</color>]]> and hijack the frequencies from the other pods to point straight to us!": "索拉拉：这意味着我们可以用<![CDATA[<color=orange>求救信标</color>]]>剩下的部分，劫持其他逃生舱的频率，让信号直接指向我们！",
+    "Kestrel: And we can all rest assured that eventually we'll be found by the others, or perhaps even by another <![CDATA[<color=orange>Clan</color>]]>.": "凯斯特尔：这样我们就能放心了，最终总会被其他人找到，甚至可能被其他<![CDATA[<color=orange>家族</color>]]>找到。",
+    "Kestrel: While you're doing that, Solara, the rest of us will have a look around.": "凯斯特尔：索拉拉，你弄这个的时候，我们其他人去四处看看。",
+
+    //FirstInteriorRecorder.xml
+    "OVER_LIMIT_ERROR": "超出限制错误",
+
+    //InstructionRecorder.xml
+    "Kestrel: A series of drawings!": "凯斯特尔：一系列图画！",
+    "Solara: You know, for life forms that can use the <![CDATA[<color=orange>4th Dimension</color>]]>, they do seem to lack artistic talent.": "索拉拉：你想想，能运用<![CDATA[<color=orange>第四维度</color>]]>的生命，艺术细胞怎么这么匮乏呢。",
+    "Lotus: Like you could do better!": "洛特斯：说得好像你能画得更好似的！",
+    "Solara: I can! ...Not that this makes this discovery bad or anything.": "索拉拉：我真能！……不过这发现本身还是不错的。",
+    "Kestrel: Regardless, it seems like they're stringed together to form instructions.": "凯斯特尔：不管怎样，这些图画似乎串起来构成了一些指令。",
+    "Lotus: I get the tesseract, but what's the circle? Like moving around in a circle?": "洛特斯：我看懂了超立方体，但这个圆圈是什么意思？是绕圈走吗？",
+    "Solara: Perhaps it means moving around the perimeter of something.": "索拉拉：可能是说绕着某个东西的边缘走。",
+    "Lotus: Looks like it might have some sort of effect on that <![CDATA[<color=orange>monolith</color>]]> I found before winding up here.": "洛特斯：看起来这可能对我来这儿之前发现的那个<![CDATA[<color=orange>巨石阵</color>]]>有什么影响。",
+
+    //MissingRecorder.xml
+    "Kestrel: How's the signal hijacker coming along, Solara?": "凯斯特尔：信号劫持器怎么样了，索拉拉？",
+    "Solara: So far, so good. Most of our original <![CDATA[<color=orange>Distress Beacon</color>]]> was salvagable, so we should be okay once it's up and running.": "索拉拉：目前还行。我们原来的<![CDATA[<color=orange>求救信标</color>]]>大部分能修好，启动后应该没问题。",
+    "Solara: One small problem is that it'll only affect signals coming from a certain direction, but we can manually rotate the signal around for a \"radar\" like effect. Should help the others track us down.": "索拉拉：有个小问题，它只能影响来自特定方向的信号，但我们可以手动旋转信号，形成类似“雷达”的效果。应该能帮其他人找到我们。",
+    "Kestrel: Excellent. Lotus and I have thoroughly searched the planet, and while there were signs that intelligent life had previously been here, it doesn't seem like they're here anymore.": "凯斯特尔：太好了。我和洛特斯彻底搜查了这颗星球，虽然有迹象表明以前有智慧生命来过，但现在似乎已经不在了。",
+    "Solara: Actually, where is Lotus?": "索拉拉：对了，洛特斯在哪儿？",
+    "Kestrel: I left Lotus to come and check on your progress. He's still looking over the structures we found.": "凯斯特尔：我让洛特斯留在那儿，自己过来看看你的进展。他还在研究我们发现的那些建筑。",
+    "Solara: Do you think it was a good idea to leave him out there alone?": "索拉拉：你觉得把他一个人留在那儿好吗？",
+    "Kestrel: This planet is small, he'll come around eventually.": "凯斯特尔：这颗星球很小，他最终会过来的。",
+    "Solara: Shouldn't risk it. Here, the signal hijacker is in a usable state. I'll leave it here and we'll look for Lotus.": "索拉拉：还是别冒险了。信号劫持器现在能用了。我把它放这儿，我们去找洛特斯。",
+    "Solara: Hang on, what's that huge structure in the sky? That wasn't there before!": "索拉拉：等等，天上那个巨型结构是什么？之前没见过啊！",
+
+    //MonolithRecorder.xml
+    "Lotus: Now this is something! ...Or on closer inspection, it's more dissapointing than the other objects I've seen around here.": "洛特斯：这东西有点意思！……不过仔细一看，比我在这儿看到的其他东西还让人失望。",
+    "Lotus: Surely this confirms that nothing actually lives here, this structure in particular seems to only serve an aesthetic purpose.": "洛特斯：这肯定能证明这儿没人住，这结构看起来尤其只有装饰作用。",
+    "Lotus: Maybe this is equivalent to planting a flag? Plenty of other space-faring species have done the same on far less hospitable planets.": "洛特斯：也许这就相当于插旗？很多其他太空文明在更不适宜居住的星球上也这么做过。",
+    "Lotus: Then again, building a whole <![CDATA[<color=orange>monolith</color>]]> is more involved than planting a flag -- hold on, what's that down there?": "洛特斯：不过话说回来，建一整个<![CDATA[<color=orange>巨石阵</color>]]>可比插旗麻烦多了——等等，下面那是什么？",
+
+    //PinkNodeRecorder.xml
+    "Lotus: Another one of these. Outwardly it looks the same, but with a different colored seal.": "洛特斯：又是一个这种东西。外观一样，但封印颜色不同。",
+    "Lotus: Perhaps there are no intelligent life forms living on this planet. I mean, surely I or anyone else would have run into them.": "洛特斯：或许这颗星球上根本没有智慧生命。不然我或者其他人肯定早就遇上了。",
+    "Lotus: Maybe these were left behind? I can't know for sure, but I can at least check out the others.": "洛特斯：也许这些是他们留下的？我不确定，但至少可以去看看其他的。",
+
+    //RiverRecorder.xml
+    "Kestrel: This is where I last saw Lotus before I headed back to the <![CDATA[<color=orange>Escape Pod</color>]]>.": "凯斯特尔：这是我回<![CDATA[<color=orange>逃生舱</color>]]>之前最后见到洛特斯的地方。",
+    "Solara: Where did you two go before you parted ways?": "索拉拉：你们分开之前去了哪里？",
+    "Kestrel: We had found two structures, one on a small island and one amongst the cliffs. The gigantic cube structure above us wasn't there until I came to check on the signal hijacker.": "凯斯特尔：我们发现了两个建筑，一个在小岛上，一个在悬崖间。我们头顶上这个巨型立方体结构，是我回来检查信号劫持器时才出现的。",
+    "Solara: What is it?": "索拉拉：怎么了？",
+    "Kestrel: I just had the strangest feeling. As if somehow, Lotus was standing right here. Not next to us, but exactly where we're standing.": "凯斯特尔：我刚才有种很奇怪的感觉。好像洛特斯就站在这里。不是在我们旁边，而是正好在我们现在站的位置。",
+    "Solara: ...You're not going crazy, are you? Is the air here making you go crazy?": "索拉拉：……你没疯吧？这里的空气让你神志不清了吗？",
+    "Kestrel: Hopefully not. But anyways, I know the only places we -- or at least before spliting up, I haven't checked the rivers.": "凯斯特尔：希望没有。不过不管怎样，我知道我们还有些地方——至少分开前，我还没检查过河流。",
+    "Solara: If you've already checked out the island, I guess that only leaves the smaller rivers.": "索拉拉：如果你已经检查过小岛，那大概就只剩那些小河了。",
+
+    //YellowNodeRecorder.xml
+    "Lotus: Huh... despite the other seals disappearing, this one is still in tact.": "洛特斯：哈……其他封印都消失了，就这个还完好无损。",
+    "Solara: The others were unsealed after you messed with the tesseract. Unsealing this one probably won't be as easy as flipping back, but there must be some clues somewhere.": "索拉拉：你摆弄超立方体后，其他的就解开了。解开这个可能没那么容易，不过肯定有线索的。",
+    "Kestrel: Let's retrace our steps, look at the other structures again. I'm sure we'll figure it out.": "凯斯特尔：我们原路返回，再看看其他建筑。肯定能弄明白的。"
+  },
+
+  "ShipLogDictionary": { //Tesseract.xml
+    "Tesseract": "超立方体",
+    "A strange planet that was invisible. There's a cube structure surrounding it.": "一颗曾不可见的奇特星球。有一个立方体结构环绕着它。",
+    "Escape Pod... 2?": "逃生舱……2号？",
+    "Escape Pod": "逃生舱",
+    "The 'broken' signals lead me to another escape pod.": "那些“异常”信号指引我找到了另一艘逃生舱。",
+    "This appears to be an escape pod from another Nomai Clan. They crashed into a rogue planet and were forced to evacuate.": "这似乎是另一支挪麦人家族的逃生舱。他们撞上了一颗流浪行星，被迫撤离。",
+    "After surviving the crash, the Nomai noticed their Distress Beacon was damaged. A Nomai named Solara came up with an idea to hijack the signals from the other escape pods since pods 1 and 3 were relatively close to each other.": "坠机幸存后，挪麦人发现他们的求救信标损坏了。一个叫索拉拉的挪麦人想出了个主意：由于1号和3号逃生舱离得较近，可以劫持其他逃生舱的信号。",
+    "Blue Structure": "蓝色结构",
+    "The nomai were perplexed by this sealed structure. According to them, there appear to be more like it.": "挪麦人对这个密封结构感到困惑。据他们说，似乎还有更多类似的结构。",
+    "Pink Structure": "粉色结构",
+    "According to the Nomai, there are more structures like this. There doesn't appear to be a way in.": "据挪麦人所说，还有更多类似的结构。似乎没有入口。",
+    "Yellow Structure": "黄色结构",
+    "The Nomai noticed that this structure remained sealed after the others were opened. It can't be accessed from here.": "挪麦人发现其他结构都打开后，这个仍保持密封。从这里无法进入。",
+    "Monolith": "巨石阵",
+    "A Nomai named Lotus was observing this structure when something below caught their eye. There doesn't appear to be any way to interact with it from here.": "一个叫洛特斯的挪麦人正在观察这个结构时，注意到了下方的东西。从这里似乎无法与它互动。",
+    "Missing Nomai": "失踪的挪麦人",
+    "After checking on Solara's progress, the cube structure above Tesseract appeared out of nowhere. Kestrel and Solara went to look for Lotus.": "查看完索拉拉的进展后，超立方体上方突然出现了立方体结构。凯斯特尔和索拉拉前去寻找洛特斯。",
+    "The River": "河流",
+    "Kestrel says that Lotus possibly searched the rivers after they split up. Solara notes that since they already checked out the island that Lotus likely is searching smaller rivers. Kestrel had a feeling that Lotus somehow occupied the same space as them.": "凯斯特尔说，他和洛特斯分开后，洛特斯可能去搜查河流了。索拉拉提到，既然他们已经检查过小岛，洛特斯可能在搜查更小的河流。凯斯特尔有种感觉，洛特斯似乎和他们处在同一空间。",
+    "Tesseract Interface": "超立方体接口",
+    "Lotus discovered a structure that lead to a tesseract. It could be changed back and forth between two states. The gravity makes it highly dangerous to attempt jumping off the platform.": "洛特斯发现了一个通往超立方体的结构。它可以在两种状态间切换。平台的重力极大，跳下平台非常危险。",
+    "Tesseract Two": "超立方体二号",
+    "Kestrel, Solara, and Lotus reunited. Lotus concluded that messing with the tesseract flipped the outside of the planet through the 4th dimension.": "凯斯特尔、索拉拉和洛特斯重逢了。洛特斯推断，摆弄超立方体让星球的外部通过第四维度发生了翻转。",
+    "Instructions": "指令",
+    "A series of drawings. The Nomai concluded that it was a set of instructions. It shows someone moving around the perimeter of a circle, switching the tesseract to blue, and approaching the monolith.": "一系列图画。挪麦人认为这是一组指令。图中显示有人绕着一个圆圈的边缘移动，将超立方体切换为蓝色，然后靠近巨石阵。",
+    "Mini Map": "迷你地图",
+    "A model of the planet. It's pointing straight at the North Pole. Lotus says that there's nothing there.": "星球的模型。它正指向北极。洛特斯说那里什么都没有。",
+    "Space-Time Fold": "时空折叠",
+    "The Nomai believed that the creators of the tesseract ultimately tried to create a space-time fold to cross enourmous distances across the universe. They stepped through to the other side.": "挪麦人认为，超立方体的创造者最终试图制造时空折叠，以跨越宇宙中的巨大距离。他们已经穿到了另一边。",
+
+    //TimberHearth.xml
+    "Hornfels' Observation": "霍恩费斯的观察",
+    "Personal Reminder": "个人提醒",
+    "I recall that Hornfels had something to tell me about my Signal Scope before I launch into space. Better late than never.": "我记得霍恩费斯在我升空之前，想跟我说关于我信号镜的事。迟做总比不做好。",
+    "Hornfels says that there might be an issue with signal scopes detecting certain frequencies. Not from any Hearthian frequencies or Quantum frequencies, specificially frequencies used by the Nomai.": "霍恩费斯说，信号镜在检测某些频率时可能有问题。不包括哈斯人使用的频率或量子频率，特指挪麦人使用的频率。",
+    "Signal Scope Oddity": "信号镜异常",
+    "Signal Scoped": "信号镜探测",
+    "Hornfels asked me to scope out the Quantum Grove with my signal scope.": "霍恩费斯让我用信号镜去探测量子树林。",
+    "While in the Quantum Grove, the frequency for Distress Beacons seems to break and points away from Escape Pods that I've found.": "在量子树林中，求救信标的频率似乎出现异常，指向与我已发现的逃生舱相反的方向。"
+  }
+}
